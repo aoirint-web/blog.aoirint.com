@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-tag-search-tsx",
+    "path": "/tags/tkinter",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"a1a89f8e-7a81-51f1-8eb5-84254710d7d4","slug":"2020/setup_python_tkinter_pyenv_ubuntu/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu, pyenv環境でtkinterを使う","date":"2020-10-04 03:30:00","updated":null,"category":"Python","tags":["Ubuntu","Python","pyenv","tkinter"]}}}]}},"pageContext":{"tag":"tkinter"}},
+    "staticQueryHashes": []}

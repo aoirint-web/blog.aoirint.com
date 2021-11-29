@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-tag-search-tsx",
+    "path": "/tags/WordPress",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"17ec084e-c49d-5bfb-a38a-94189596cdef","slug":"2021/wordpress/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"WordPress","date":"2021-11-13 13:00:00","updated":null,"category":"Blogging","tags":["WordPress","Blogging"]}}}]}},"pageContext":{"tag":"WordPress"}},
+    "staticQueryHashes": []}

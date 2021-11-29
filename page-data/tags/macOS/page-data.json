@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-tag-search-tsx",
+    "path": "/tags/macOS",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"e9ebb570-0340-5646-bbf9-c6a708255119","slug":"2020/xquartz_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Docker Desktop for Mac上のX ClientをホストのXQuartz（X Window Server）で表示する","date":"2020-12-20 00:30:00","updated":null,"category":"Docker","tags":["Docker","macOS"]}}},{"node":{"id":"e247d9ff-bcca-56b1-ae54-7f891e936af1","slug":"2021/transproxy_macos/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"透過プロキシ（macOS, go-transproxy）","date":"2021-06-21 18:40:00","updated":null,"category":"Network","tags":["Network","Proxy","macOS"]}}}]}},"pageContext":{"tag":"macOS"}},
+    "staticQueryHashes": []}

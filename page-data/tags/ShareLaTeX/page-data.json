@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-tag-search-tsx",
+    "path": "/tags/ShareLaTeX",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"5cac6466-8eef-564f-ac93-8f4fdfccd7b1","slug":"2021/overleaf_ce/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Overleaf Community Edition","date":"2021-11-05 05:00:00","updated":null,"category":"LaTeX","tags":["Overleaf","ShareLaTeX"]}}}]}},"pageContext":{"tag":"ShareLaTeX"}},
+    "staticQueryHashes": []}

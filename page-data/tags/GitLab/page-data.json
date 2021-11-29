@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-tag-search-tsx",
+    "path": "/tags/GitLab",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"4aea5063-2251-5e5c-874c-cc250e754f92","slug":"2021/gitlab_ci_docker_registry/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"GitLab CI, DockerイメージをビルドしてContainer Registryにpushする","date":"2021-05-29 02:00:00","updated":null,"category":"GitLab","tags":["GitLab","GitLab Actions","CI CD","Docker"]}}},{"node":{"id":"5a7d391c-cd89-5f24-96b9-c1644adc6dbd","slug":"2021/gitlab_ci_publish_gitlab_pages/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"GitLab CI, GitLab PagesにビルドしたHTMLを公開する","date":"2021-11-06 17:00:00","updated":null,"category":"GitLab","tags":["GitLab","GitLab CI","GitLab Pages","CI CD"]}}}]}},"pageContext":{"tag":"GitLab"}},
+    "staticQueryHashes": []}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-tag-search-tsx",
+    "path": "/tags/GitLab Pages",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"5a7d391c-cd89-5f24-96b9-c1644adc6dbd","slug":"2021/gitlab_ci_publish_gitlab_pages/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"GitLab CI, GitLab PagesにビルドしたHTMLを公開する","date":"2021-11-06 17:00:00","updated":null,"category":"GitLab","tags":["GitLab","GitLab CI","GitLab Pages","CI CD"]}}}]}},"pageContext":{"tag":"GitLab Pages"}},
+    "staticQueryHashes": []}

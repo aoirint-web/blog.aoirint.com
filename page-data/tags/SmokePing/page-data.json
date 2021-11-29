@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-tag-search-tsx",
+    "path": "/tags/SmokePing",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"a6b2dcbb-bd85-5c75-99c6-11a272e9994e","slug":"2021/smokeping_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"SmokePing in Docker","date":"2021-08-22 09:45:00","updated":null,"category":"Network","tags":["Network","SmokePing","Docker"]}}}]}},"pageContext":{"tag":"SmokePing"}},
+    "staticQueryHashes": []}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-tag-search-tsx",
+    "path": "/tags/e1000e",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"e5fcd043-87de-5ff6-894b-5d18e408c6b1","slug":"2020/ubuntu_kernel_update/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu 18.04のKernelをアップデートした（HWE Kernel）","date":"2020-09-21 00:00:00","updated":null,"category":"Ubuntu","tags":["Ubuntu","Linux Kernel","e1000e","DKMS"]}}}]}},"pageContext":{"tag":"e1000e"}},
+    "staticQueryHashes": []}

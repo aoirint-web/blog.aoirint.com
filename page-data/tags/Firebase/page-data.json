@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-tag-search-tsx",
+    "path": "/tags/Firebase",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"59c289ac-c5cc-5262-8c80-d72037515e53","slug":"2020/esp32_firebase_realtime_database/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"ESP32でFirebase Realtime Databaseを使う","date":"2020-11-09 07:00:00","updated":null,"category":"ESP32","tags":["ESP32","Firebase","Realtime Database"]}}},{"node":{"id":"7bee3a7e-cfd5-524f-8ce1-f42eccd9c7b0","slug":"2020/esp32_firebase_sensor/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"ESP32とFirebaseでIoTセンサシステムを構築する","date":"2020-11-03 00:00:00","updated":null,"category":"ESP32","tags":["ESP32","Firebase","IoT","Firebase Realtime Database","Firebase Cloud Functions"]}}}]}},"pageContext":{"tag":"Firebase"}},
+    "staticQueryHashes": []}

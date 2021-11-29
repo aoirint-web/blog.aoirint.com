@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-tag-search-tsx",
+    "path": "/tags/テキストエディタ",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"dbafeda9-6126-59c2-8564-85e7bd02ba01","slug":"2021/atom_setup/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Atom Text Editor Setup","date":"2021-05-14 01:00:00","updated":"2021-10-09 22:00:00","category":"Editor","tags":["Atom","テキストエディタ"]}}}]}},"pageContext":{"tag":"テキストエディタ"}},
+    "staticQueryHashes": []}

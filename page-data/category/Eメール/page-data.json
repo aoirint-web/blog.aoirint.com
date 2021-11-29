@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-category-search-tsx",
+    "path": "/category/Eメール",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"0821fbea-a09f-5c8b-8755-ba6a7d1c2f75","slug":"2021/sendgrid/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"SendGrid","date":"2021-09-11 13:10:00","updated":null,"category":"Eメール","tags":["SendGrid","Eメール"]}}}]}},"pageContext":{"category":"Eメール"}},
+    "staticQueryHashes": []}

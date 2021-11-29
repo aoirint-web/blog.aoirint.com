@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-category-search-tsx",
+    "path": "/category/Python",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"59038fad-0072-5fd1-b06d-c1732635cb6d","slug":"2020/docker_compose_python_selenium/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"docker-composeによるPython + Selenium環境","date":"2020-09-28 11:00:00","updated":null,"category":"Python","tags":["Docker","Docker Compose","Python","Selenium"]}}},{"node":{"id":"b5642199-8d8a-5490-8d4d-57d3e5194d27","slug":"2020/python_requests/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Python Requests","date":"2020-09-28 11:30:00","updated":null,"category":"Python","tags":["Python","Requests"]}}},{"node":{"id":"a1a89f8e-7a81-51f1-8eb5-84254710d7d4","slug":"2020/setup_python_tkinter_pyenv_ubuntu/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu, pyenv環境でtkinterを使う","date":"2020-10-04 03:30:00","updated":null,"category":"Python","tags":["Ubuntu","Python","pyenv","tkinter"]}}}]}},"pageContext":{"category":"Python"}},
+    "staticQueryHashes": []}
