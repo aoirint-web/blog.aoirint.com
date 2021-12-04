@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-components-tag-search-tsx",
-    "path": "/tags/IoT",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"7bee3a7e-cfd5-524f-8ce1-f42eccd9c7b0","slug":"2020/esp32_firebase_sensor/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"ESP32とFirebaseでIoTセンサシステムを構築する","date":"2020-11-03 00:00:00","updated":null,"category":"ESP32","tags":["ESP32","Firebase","IoT","Firebase Realtime Database","Firebase Cloud Functions"]}}}]}},"pageContext":{"tag":"IoT"}},
-    "staticQueryHashes": []}

@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-components-tag-search-tsx",
-    "path": "/tags/テンプレート",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"8c7375af-190a-5b72-b243-2f006024ba20","slug":"2020/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"テンプレート","date":"2020-11-01 00:00:00","updated":null,"category":"記事","tags":["テンプレート"]}}},{"node":{"id":"7c1658f4-e07b-56d7-aa4a-55c34c01649e","slug":"2021/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"テンプレート","date":"2020-11-01 00:00:00","updated":null,"category":"記事","tags":["テンプレート"]}}},{"node":{"id":"b958a2c2-77eb-54e2-a357-c058c1a68402","slug":"2020/template/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"テンプレート","date":"2020-12-09 00:00:00","updated":null,"category":"管理用","tags":["管理用","テンプレート"]}}}]}},"pageContext":{"tag":"テンプレート"}},
-    "staticQueryHashes": []}

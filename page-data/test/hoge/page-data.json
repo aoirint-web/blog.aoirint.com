@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-test-hoge-md",
     "path": "/test/hoge/",
-    "result": {"pageContext":{"frontmatter":{"title":"aaa"}}},
+    "result": {"pageContext":{"frontmatter":{"title":"aaa","draft":true}}},
     "staticQueryHashes": []}

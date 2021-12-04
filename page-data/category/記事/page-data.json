@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-components-category-search-tsx",
-    "path": "/category/記事",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"8c7375af-190a-5b72-b243-2f006024ba20","slug":"2020/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"テンプレート","date":"2020-11-01 00:00:00","updated":null,"category":"記事","tags":["テンプレート"]}}},{"node":{"id":"7c1658f4-e07b-56d7-aa4a-55c34c01649e","slug":"2021/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"テンプレート","date":"2020-11-01 00:00:00","updated":null,"category":"記事","tags":["テンプレート"]}}},{"node":{"id":"478aeb2a-90ed-5713-befa-cb188842e6db","slug":"2020/pulseaudio_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"PulseAudioをDockerで使う","date":"2020-11-14 14:30:00","updated":null,"category":"記事","tags":["PulseAudio","Docker"]}}}]}},"pageContext":{"category":"記事"}},
-    "staticQueryHashes": []}

@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-components-tag-search-tsx",
-    "path": "/tags/管理用",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"b958a2c2-77eb-54e2-a357-c058c1a68402","slug":"2020/template/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"テンプレート","date":"2020-12-09 00:00:00","updated":null,"category":"管理用","tags":["管理用","テンプレート"]}}}]}},"pageContext":{"tag":"管理用"}},
-    "staticQueryHashes": []}
