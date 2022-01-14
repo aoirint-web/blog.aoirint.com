@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/NVIDIA GPU",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"6cb8c7f7-cf48-55f8-8071-0f42b01aea8d","slug":"2021/ubuntu_steam_with_cuda/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu, CUDAを入れたあとにSteamが起動しない","date":"2021-11-18 23:50:00","updated":null,"category":"Game","tags":["Ubuntu","NVIDIA GPU"]}}}]}},"pageContext":{"tag":"NVIDIA GPU"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"498425d0-6596-5186-bc71-51142e04548c","slug":"2021/ubuntu_steam_with_cuda/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu, CUDAを入れたあとにSteamが起動しない","date":"2021-11-18 23:50:00","updated":null,"category":"Game","tags":["Ubuntu","NVIDIA GPU"]}}}]}},"pageContext":{"tag":"NVIDIA GPU"}},
     "staticQueryHashes": []}

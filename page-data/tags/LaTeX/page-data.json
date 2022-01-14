@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/LaTeX",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"92be1144-db4f-595d-9564-08a04554b929","slug":"2020/atom_latex_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Atom + LaTeX in Docker","date":"2020-09-17 08:35:00","updated":"2021-05-14 01:00:00","category":"LaTeX","tags":["Atom","LaTeX","TeXLive","Docker"]}}}]}},"pageContext":{"tag":"LaTeX"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"2f3ca737-a8b8-50f8-b274-098f924d9a2b","slug":"2020/atom_latex_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Atom + LaTeX in Docker","date":"2020-09-17 08:35:00","updated":"2021-05-14 01:00:00","category":"LaTeX","tags":["Atom","LaTeX","TeXLive","Docker"]}}}]}},"pageContext":{"tag":"LaTeX"}},
     "staticQueryHashes": []}

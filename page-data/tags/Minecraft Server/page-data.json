@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/Minecraft Server",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"98258b88-c84d-52f2-85b0-60a310961f62","slug":"2021/minecraft_server/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Minecraft Server","date":"2021-11-06 17:50:00","updated":null,"category":"Game","tags":["Game","Minecraft","Minecraft Server"]}}}]}},"pageContext":{"tag":"Minecraft Server"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"b9652017-329e-5933-961a-93be522491c0","slug":"2021/minecraft_server/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Minecraft Server","date":"2021-11-06 17:50:00","updated":null,"category":"Game","tags":["Game","Minecraft","Minecraft Server"]}}}]}},"pageContext":{"tag":"Minecraft Server"}},
     "staticQueryHashes": []}

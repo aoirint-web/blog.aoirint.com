@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/WordPress",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"17ec084e-c49d-5bfb-a38a-94189596cdef","slug":"2021/wordpress/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"WordPress","date":"2021-11-13 13:00:00","updated":null,"category":"Blogging","tags":["WordPress","Blogging"]}}}]}},"pageContext":{"tag":"WordPress"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"eeb8335c-c1f0-54e1-b3a2-29ff7c65e81b","slug":"2021/wordpress/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"WordPress","date":"2021-11-13 13:00:00","updated":null,"category":"Blogging","tags":["WordPress","Blogging"]}}}]}},"pageContext":{"tag":"WordPress"}},
     "staticQueryHashes": []}

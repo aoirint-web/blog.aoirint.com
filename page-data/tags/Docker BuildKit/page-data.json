@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/Docker BuildKit",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"1d1fdd11-5ba1-59cc-80ca-67827d5ab9e9","slug":"2021/docker_compose_buildkit/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"docker-composeでBuildKitを使う","date":"2021-11-08 07:30:00","updated":null,"category":"Docker","tags":["Docker","Docker BuildKit","Docker Compose"]}}}]}},"pageContext":{"tag":"Docker BuildKit"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"a3eb49b2-77f7-59dc-a72e-f687f5eea603","slug":"2021/docker_compose_buildkit/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"docker-composeでBuildKitを使う","date":"2021-11-08 07:30:00","updated":null,"category":"Docker","tags":["Docker","Docker BuildKit","Docker Compose"]}}}]}},"pageContext":{"tag":"Docker BuildKit"}},
     "staticQueryHashes": []}

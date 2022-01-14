@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/NTP",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"2cfa9c38-ab10-57e5-b433-d0eb556a1626","slug":"2021/ubuntu_ntp/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu/Raspberry Pi/Debianの時刻ずれを解消する","date":"2021-04-04 06:00:00","updated":null,"category":"Ubuntu","tags":["Ubuntu","NTP"]}}}]}},"pageContext":{"tag":"NTP"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"3d57e4b7-35c2-501e-9a65-e8cff6114d99","slug":"2021/ubuntu_ntp/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu/Raspberry Pi/Debianの時刻ずれを解消する","date":"2021-04-04 06:00:00","updated":null,"category":"Ubuntu","tags":["Ubuntu","NTP"]}}}]}},"pageContext":{"tag":"NTP"}},
     "staticQueryHashes": []}
