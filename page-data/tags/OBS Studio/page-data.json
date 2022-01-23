@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/OBS Studio",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"1a12cac7-f033-5ca8-952b-41022dda2d40","slug":"2020/obs_ubuntu_nvidia_window_capture/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"OBS Studio on Ubuntu + NVIDIA GPUでWindow Captureを動作させる","date":"2020-11-09 06:10:00","updated":"2021-08-22 11:30:00","category":"OBS Studio","tags":["OBS Studio","Ubuntu"]}}}]}},"pageContext":{"tag":"OBS Studio"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"1a12cac7-f033-5ca8-952b-41022dda2d40","slug":"2020/obs_ubuntu_nvidia_window_capture/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"OBS Studio on Ubuntu 20.04 + NVIDIA GPUでWindow Captureを動作させる","date":"2020-11-09 06:10:00","updated":"2022-01-23 11:50:00","category":"OBS Studio","tags":["OBS Studio","Ubuntu"]}}}]}},"pageContext":{"tag":"OBS Studio"}},
     "staticQueryHashes": []}
