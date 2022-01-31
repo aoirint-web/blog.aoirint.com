@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/Open JTalk",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"6041a038-c72d-5c48-955c-e5d9688d88de","slug":"2021/open_jtalk/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Open JTalk in Docker","date":"2021-04-04 08:00:00","updated":null,"category":"音声合成","tags":["音声合成","Open JTalk","Docker"]}}}]}},"pageContext":{"tag":"Open JTalk"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"6041a038-c72d-5c48-955c-e5d9688d88de","slug":"2021/open_jtalk/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Open JTalk in Docker","date":"2021-04-04T08:00:00.000Z","updated":null,"category":"音声合成","tags":["音声合成","Open JTalk","Docker"]}}}]}},"pageContext":{"tag":"Open JTalk"}},
     "staticQueryHashes": []}

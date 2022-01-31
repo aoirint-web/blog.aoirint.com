@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/WebClip",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"f7c7ca65-312d-53c3-996b-21e56b35bc22","slug":"2021/archivebox/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"ArchiveBox","date":"2021-11-06 23:00:00","updated":null,"category":"WebClip","tags":["WebClip","ArchiveBox"]}}}]}},"pageContext":{"tag":"WebClip"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"f7c7ca65-312d-53c3-996b-21e56b35bc22","slug":"2021/archivebox/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"ArchiveBox","date":"2021-11-06T23:00:00.000Z","updated":null,"category":"WebClip","tags":["WebClip","ArchiveBox"]}}}]}},"pageContext":{"tag":"WebClip"}},
     "staticQueryHashes": []}

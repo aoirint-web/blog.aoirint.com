@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/VOICEVOX",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"799fc84a-02d8-5c8b-99d8-6aeed8aa8a33","slug":"2021/voicevox_core/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"VOICEVOX CoreをUbuntu/GPUで使う（exampleを動かすまで）","date":"2021-09-11 23:40:00","updated":"2021-09-22 11:51:00","category":"音声合成","tags":["音声合成","Ubuntu","VOICEVOX"]}}}]}},"pageContext":{"tag":"VOICEVOX"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"799fc84a-02d8-5c8b-99d8-6aeed8aa8a33","slug":"2021/voicevox_core/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"VOICEVOX CoreをUbuntu/GPUで使う（exampleを動かすまで）","date":"2021-09-11T23:40:00.000Z","updated":"2021-09-22T11:51:00.000Z","category":"音声合成","tags":["音声合成","Ubuntu","VOICEVOX"]}}}]}},"pageContext":{"tag":"VOICEVOX"}},
     "staticQueryHashes": []}

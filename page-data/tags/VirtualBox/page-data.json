@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/VirtualBox",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"26b5c2b3-27e9-55c4-9e1f-b9b15c7c2b1d","slug":"2020/docker_on_vagrant_ubuntu_server/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Docker + Docker Compose on Vagrant Ubuntu Server","date":"2020-10-22 16:30:00","updated":null,"category":"Docker","tags":["Vagrant","VirtualBox","Ubuntu","Docker","Docker Compose"]}}}]}},"pageContext":{"tag":"VirtualBox"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"26b5c2b3-27e9-55c4-9e1f-b9b15c7c2b1d","slug":"2020/docker_on_vagrant_ubuntu_server/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Docker + Docker Compose on Vagrant Ubuntu Server","date":"2020-10-22T16:30:00.000Z","updated":null,"category":"Docker","tags":["Vagrant","VirtualBox","Ubuntu","Docker","Docker Compose"]}}}]}},"pageContext":{"tag":"VirtualBox"}},
     "staticQueryHashes": []}

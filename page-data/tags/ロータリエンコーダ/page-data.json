@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/ロータリエンコーダ",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"d7e71d5b-89d6-5bf5-937c-66b1a514d481","slug":"2020/stepping_motor/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"ロータリエンコーダ付きステッピングモータをArduinoで制御して角度を取得する","date":"2020-10-06 07:00:00","updated":"2021-05-14 01:50:00","category":"Arduino","tags":["ステッピングモータ","ロータリエンコーダ","Arduino"]}}}]}},"pageContext":{"tag":"ロータリエンコーダ"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"d7e71d5b-89d6-5bf5-937c-66b1a514d481","slug":"2020/stepping_motor/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"ロータリエンコーダ付きステッピングモータをArduinoで制御して角度を取得する","date":"2020-10-06T07:00:00.000Z","updated":"2021-05-14T01:50:00.000Z","category":"Arduino","tags":["ステッピングモータ","ロータリエンコーダ","Arduino"]}}}]}},"pageContext":{"tag":"ロータリエンコーダ"}},
     "staticQueryHashes": []}
