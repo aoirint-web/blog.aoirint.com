@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/GitLab CI",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"23e115d7-5d2f-59f0-aa8c-c7c162ba38d5","slug":"2021/gitlab_ci_publish_gitlab_pages/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"GitLab CI, GitLab PagesにビルドしたHTMLを公開する","date":"2021-11-06T17:00:00.000Z","updated":null,"category":"GitLab","tags":["GitLab","GitLab CI","GitLab Pages","CI CD"]}}}]}},"pageContext":{"tag":"GitLab CI"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"0a0e4c58-53bb-5b43-a0d2-c94635f70aa6","slug":"2021/gitlab_ci_publish_gitlab_pages/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"GitLab CI, GitLab PagesにビルドしたHTMLを公開する","date":"2021-11-06T17:00:00.000Z","updated":null,"category":"GitLab","tags":["GitLab","GitLab CI","GitLab Pages","CI CD"]}}}]}},"pageContext":{"tag":"GitLab CI"}},
     "staticQueryHashes": []}

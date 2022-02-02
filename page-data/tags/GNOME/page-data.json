@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/GNOME",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"a8b6348f-4503-56c1-bc81-188a0c08a2ce","slug":"2021/gnome_shell_extension/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"GNOME Shell Extension","date":"2021-11-14T11:30:00.000Z","updated":null,"category":"Ubuntu","tags":["Ubuntu","GNOME"]}}}]}},"pageContext":{"tag":"GNOME"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"e032bd27-b5d6-5731-a5bd-c9b42ea101ee","slug":"2021/gnome_shell_extension/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"GNOME Shell Extension","date":"2021-11-14T11:30:00.000Z","updated":null,"category":"Ubuntu","tags":["Ubuntu","GNOME"]}}}]}},"pageContext":{"tag":"GNOME"}},
     "staticQueryHashes": []}

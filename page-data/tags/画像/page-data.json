@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/画像",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"94e0da0c-e87a-5f97-a3c3-cfd71f481063","slug":"2020/change_image_dpi_imagemagick/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Imagemagickで画像のDPIを変更する","date":"2020-11-09T06:30:00.000Z","updated":null,"category":"LaTeX","tags":["画像","Imagemagick"]}}}]}},"pageContext":{"tag":"画像"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"dc5cc6f7-77a6-5a87-97cb-cd9953906eea","slug":"2020/change_image_dpi_imagemagick/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Imagemagickで画像のDPIを変更する","date":"2020-11-09T06:30:00.000Z","updated":null,"category":"LaTeX","tags":["画像","Imagemagick"]}}}]}},"pageContext":{"tag":"画像"}},
     "staticQueryHashes": []}

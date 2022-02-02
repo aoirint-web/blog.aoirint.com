@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/apt",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"ec8d722a-bed0-587b-8fe0-8ea1ea21de9d","slug":"2021/ubuntu_stop_unattended_upgrades/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu 20.04, Unattended Upgradesを停止","date":"2021-11-08T07:30:00.000Z","updated":null,"category":"Ubuntu","tags":["Ubuntu","dpkg","apt"]}}}]}},"pageContext":{"tag":"apt"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"ba74675d-4450-5b73-bfb1-a66d8ffc2ee9","slug":"2021/ubuntu_stop_unattended_upgrades/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu 20.04, Unattended Upgradesを停止","date":"2021-11-08T07:30:00.000Z","updated":null,"category":"Ubuntu","tags":["Ubuntu","dpkg","apt"]}}}]}},"pageContext":{"tag":"apt"}},
     "staticQueryHashes": []}
