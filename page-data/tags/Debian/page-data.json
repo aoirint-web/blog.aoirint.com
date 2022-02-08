@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/Debian",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"f122e9b9-1708-55d6-87a7-f3455ee1b229","slug":"2020/extract_from_deb_file/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Debianパッケージから内容物を抽出する","date":"2020-12-08T22:40:00.000Z","updated":null,"category":"Ubuntu","tags":["Ubuntu","Debian"]}}}]}},"pageContext":{"tag":"Debian"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"bcbb8fe1-9992-5896-9de2-d7ba9198d03f","slug":"2020/extract_from_deb_file/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Debianパッケージから内容物を抽出する","date":"2020-12-08T22:40:00.000Z","updated":null,"category":"Ubuntu","tags":["Ubuntu","Debian"]}}}]}},"pageContext":{"tag":"Debian"}},
     "staticQueryHashes": []}

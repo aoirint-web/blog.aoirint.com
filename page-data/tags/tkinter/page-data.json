@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/tkinter",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"306dc9e5-f6e8-5969-9256-21bb803f2528","slug":"2020/setup_python_tkinter_pyenv_ubuntu/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu, pyenv環境でtkinterを使う","date":"2020-10-04T03:30:00.000Z","updated":null,"category":"Python","tags":["Ubuntu","Python","pyenv","tkinter"]}}}]}},"pageContext":{"tag":"tkinter"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"3622da44-68ed-574b-86e4-9a69f9508ab6","slug":"2020/setup_python_tkinter_pyenv_ubuntu/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu, pyenv環境でtkinterを使う","date":"2020-10-04T03:30:00.000Z","updated":null,"category":"Python","tags":["Ubuntu","Python","pyenv","tkinter"]}}}]}},"pageContext":{"tag":"tkinter"}},
     "staticQueryHashes": []}

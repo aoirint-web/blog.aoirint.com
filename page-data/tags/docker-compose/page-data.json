@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/docker-compose",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"279f0612-efbc-5a30-882e-7624ea7bcc7d","slug":"2020/mastodon_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Mastodonをdocker-composeで立てる（Ubuntu 18.04）","date":"2020-12-06T11:00:00.000Z","updated":"2021-09-11T17:40:00.000Z","category":"Mastodon","tags":["Mastodon","docker-compose","Docker","Ubuntu"]}}}]}},"pageContext":{"tag":"docker-compose"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"39ddf146-d307-5253-91f6-5606cf39a9eb","slug":"2020/mastodon_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Mastodonをdocker-composeで立てる（Ubuntu 18.04）","date":"2020-12-06T11:00:00.000Z","updated":"2021-09-11T17:40:00.000Z","category":"Mastodon","tags":["Mastodon","docker-compose","Docker","Ubuntu"]}}}]}},"pageContext":{"tag":"docker-compose"}},
     "staticQueryHashes": []}
