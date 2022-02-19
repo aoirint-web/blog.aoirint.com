@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-components-tag-search-tsx",
+    "componentChunkName": "component---src-layouts-tag-search-page-layout-tsx",
     "path": "/tags/TeXLive",
     "result": {"data":{"posts":{"edges":[{"node":{"id":"f9720725-a303-5e67-b5e1-e7dbc5721c8f","slug":"2020/atom_latex_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Atom + LaTeX in Docker","date":"2020-09-17T08:35:00.000Z","updated":"2021-05-14T01:00:00.000Z","channel":"技術ノート","category":"LaTeX","tags":["Atom","LaTeX","TeXLive","Docker"]}}}]}},"pageContext":{"tag":"TeXLive"}},
     "staticQueryHashes": []}

@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-components-channel-tag-search-tsx",
+    "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
     "path": "/channel/技術ノート/tags/SmokePing",
     "result": {"data":{"posts":{"edges":[{"node":{"id":"d0ec94db-971e-5bf7-9633-302797c3b2a5","slug":"2021/smokeping_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"SmokePing in Docker","date":"2021-08-22T09:45:00.000Z","updated":null,"channel":"技術ノート","category":"Network","tags":["Network","SmokePing","Docker"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"SmokePing"}},
     "staticQueryHashes": []}

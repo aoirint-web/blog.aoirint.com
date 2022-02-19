@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-components-channel-tag-search-tsx",
+    "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
     "path": "/channel/技術ノート/tags/画像",
     "result": {"data":{"posts":{"edges":[{"node":{"id":"b363524c-84a5-5f20-814c-e54e744a8ff5","slug":"2020/change_image_dpi_imagemagick/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Imagemagickで画像のDPIを変更する","date":"2020-11-09T06:30:00.000Z","updated":null,"channel":"技術ノート","category":"LaTeX","tags":["画像","Imagemagick"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"画像"}},
     "staticQueryHashes": []}

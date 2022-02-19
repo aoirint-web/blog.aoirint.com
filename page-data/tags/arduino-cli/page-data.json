@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-components-tag-search-tsx",
+    "componentChunkName": "component---src-layouts-tag-search-page-layout-tsx",
     "path": "/tags/arduino-cli",
     "result": {"data":{"posts":{"edges":[{"node":{"id":"5f473287-a169-592b-80bd-637310d4ca38","slug":"2020/arduino_cli_usage/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"arduino-cliの使い方","date":"2020-11-09T08:00:00.000Z","updated":"2021-05-09T17:30:00.000Z","channel":"技術ノート","category":"Arduino","tags":["Arduino","arduino-cli"]}}}]}},"pageContext":{"tag":"arduino-cli"}},
     "staticQueryHashes": []}

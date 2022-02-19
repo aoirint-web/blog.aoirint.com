@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-components-category-search-tsx",
+    "componentChunkName": "component---src-layouts-category-search-page-layout-tsx",
     "path": "/category/Eメール",
     "result": {"data":{"posts":{"edges":[{"node":{"id":"ac57c9da-baf8-5b69-a633-d9fc5630a692","slug":"2021/sendgrid/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"SendGrid","date":"2021-09-11T13:10:00.000Z","updated":null,"channel":"技術ノート","category":"Eメール","tags":["SendGrid","Eメール"]}}}]}},"pageContext":{"category":"Eメール"}},
     "staticQueryHashes": []}

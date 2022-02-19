@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-components-channel-tag-search-tsx",
+    "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
     "path": "/channel/技術ノート/tags/WebClip",
     "result": {"data":{"posts":{"edges":[{"node":{"id":"71b8238f-405b-523b-a6b2-5e449d27e5ac","slug":"2021/archivebox/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"ArchiveBox","date":"2021-11-06T23:00:00.000Z","updated":null,"channel":"技術ノート","category":"WebClip","tags":["WebClip","ArchiveBox"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"WebClip"}},
     "staticQueryHashes": []}

@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-components-channel-tag-search-tsx",
+    "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
     "path": "/channel/技術ノート/tags/cron",
     "result": {"data":{"posts":{"edges":[{"node":{"id":"d5d0c503-fae0-5c04-b7cc-2d59f354cf58","slug":"2021/cron/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"cron","date":"2021-11-05T02:00:00.000Z","updated":null,"channel":"技術ノート","category":"Command Utility","tags":["cron"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"cron"}},
     "staticQueryHashes": []}

@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-components-channel-category-search-tsx",
+    "componentChunkName": "component---src-layouts-channel-category-search-page-layout-tsx",
     "path": "/channel/技術ノート/category/Google",
     "result": {"data":{"posts":{"edges":[{"node":{"id":"216608a6-7e5c-5d75-ba73-ec35e95f32e8","slug":"2021/google_authuser_link/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"GoogleサービスのURLでユーザアカウントを指定する（?authuser=email）","date":"2021-07-01T13:00:00.000Z","updated":null,"channel":"技術ノート","category":"Google","tags":["Google"]}}}]}},"pageContext":{"channel":"技術ノート","category":"Google"}},
     "staticQueryHashes": []}

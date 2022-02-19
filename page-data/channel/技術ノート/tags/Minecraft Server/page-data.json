@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-components-channel-tag-search-tsx",
+    "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
     "path": "/channel/技術ノート/tags/Minecraft Server",
     "result": {"data":{"posts":{"edges":[{"node":{"id":"eee945dd-6983-57c1-bf8f-c4f9a6ed518a","slug":"2021/minecraft_server/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Minecraft Server","date":"2021-11-06T17:50:00.000Z","updated":null,"channel":"技術ノート","category":"Game","tags":["Game","Minecraft","Minecraft Server"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"Minecraft Server"}},
     "staticQueryHashes": []}
