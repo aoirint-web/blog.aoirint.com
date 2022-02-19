@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/Miyadaiku",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"2b5fc000-0417-518a-a7e1-71a4c9ff3388","slug":"2020/miyadaiku_github_actions/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"静的サイトジェネレータMiyadaiku + GitHub Actions + GitHub Pagesでブログを作る","date":"2020-09-09T09:48:39.000Z","updated":null,"category":"Blogging","tags":["Blogging","Miyadaiku","Static Website","GitHub","GitHub Actions","CI CD"]}}}]}},"pageContext":{"tag":"Miyadaiku"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"2b5fc000-0417-518a-a7e1-71a4c9ff3388","slug":"2020/miyadaiku_github_actions/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"静的サイトジェネレータMiyadaiku + GitHub Actions + GitHub Pagesでブログを作る","date":"2020-09-09T09:48:39.000Z","updated":null,"channel":"技術ノート","category":"Blogging","tags":["Blogging","Miyadaiku","Static Website","GitHub","GitHub Actions","CI CD"]}}}]}},"pageContext":{"tag":"Miyadaiku"}},
     "staticQueryHashes": []}

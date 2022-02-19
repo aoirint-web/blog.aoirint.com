@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/Authentication",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"bc333d43-46d0-5ff8-a3b8-614a6a358ce9","slug":"2020/github_pat_auth/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"GitHubのPAT（Personal Access Token）認証手順（Ubuntu）","date":"2020-12-18T11:00:00.000Z","updated":"2021-09-11T13:40:00.000Z","category":"GitHub","tags":["GitHub","Authentication"]}}}]}},"pageContext":{"tag":"Authentication"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"bc333d43-46d0-5ff8-a3b8-614a6a358ce9","slug":"2020/github_pat_auth/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"GitHubのPAT（Personal Access Token）認証手順（Ubuntu）","date":"2020-12-18T11:00:00.000Z","updated":"2021-09-11T13:40:00.000Z","channel":"技術ノート","category":"GitHub","tags":["GitHub","Authentication"]}}}]}},"pageContext":{"tag":"Authentication"}},
     "staticQueryHashes": []}

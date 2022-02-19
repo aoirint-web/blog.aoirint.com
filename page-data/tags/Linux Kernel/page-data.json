@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/Linux Kernel",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"1571fc24-86e0-505a-a548-d03774010e7b","slug":"2020/ubuntu_kernel_update/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu 18.04のKernelをアップデートした（HWE Kernel）","date":"2020-09-21T00:00:00.000Z","updated":null,"category":"Ubuntu","tags":["Ubuntu","Linux Kernel","e1000e","DKMS"]}}}]}},"pageContext":{"tag":"Linux Kernel"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"1571fc24-86e0-505a-a548-d03774010e7b","slug":"2020/ubuntu_kernel_update/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu 18.04のKernelをアップデートした（HWE Kernel）","date":"2020-09-21T00:00:00.000Z","updated":null,"channel":"技術ノート","category":"Ubuntu","tags":["Ubuntu","Linux Kernel","e1000e","DKMS"]}}}]}},"pageContext":{"tag":"Linux Kernel"}},
     "staticQueryHashes": []}

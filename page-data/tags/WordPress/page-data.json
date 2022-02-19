@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/WordPress",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"b29b3725-8219-5258-9dd6-384f62a3ff52","slug":"2021/wordpress/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"WordPress","date":"2021-11-13T13:00:00.000Z","updated":null,"category":"Blogging","tags":["WordPress","Blogging"]}}}]}},"pageContext":{"tag":"WordPress"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"b29b3725-8219-5258-9dd6-384f62a3ff52","slug":"2021/wordpress/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"WordPress","date":"2021-11-13T13:00:00.000Z","updated":null,"channel":"技術ノート","category":"Blogging","tags":["WordPress","Blogging"]}}}]}},"pageContext":{"tag":"WordPress"}},
     "staticQueryHashes": []}

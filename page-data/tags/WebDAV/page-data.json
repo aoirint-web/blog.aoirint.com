@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/WebDAV",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"0dbadde4-8f03-5e1e-8676-4ecdea69db8f","slug":"2021/webdav_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"WebDAV in Docker","date":"2021-08-22T11:15:00.000Z","updated":null,"category":"Network","tags":["Network","WebDAV","Docker"]}}}]}},"pageContext":{"tag":"WebDAV"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"0dbadde4-8f03-5e1e-8676-4ecdea69db8f","slug":"2021/webdav_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"WebDAV in Docker","date":"2021-08-22T11:15:00.000Z","updated":null,"channel":"技術ノート","category":"Network","tags":["Network","WebDAV","Docker"]}}}]}},"pageContext":{"tag":"WebDAV"}},
     "staticQueryHashes": []}

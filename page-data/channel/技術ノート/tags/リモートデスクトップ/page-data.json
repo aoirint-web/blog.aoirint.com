@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-channel-tag-search-tsx",
+    "path": "/channel/技術ノート/tags/リモートデスクトップ",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"9f789664-172e-5103-8eba-42ec8a044d69","slug":"2021/ubuntu_autologin_chrome_remote_desktop/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu 20.04, 自動ログイン＋Chrome Remote Desktopの起動時に繰り返し認証を求められる","date":"2021-11-13T17:50:00.000Z","updated":null,"channel":"技術ノート","category":"Ubuntu","tags":["Ubuntu","リモートデスクトップ"]}}},{"node":{"id":"15fc4b5f-0fe0-5885-89d6-9a6c75899d90","slug":"2021/chrome_remote_desktop_ubuntu/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Chrome Remote Desktop （Ubuntu）","date":"2021-11-13T17:40:00.000Z","updated":null,"channel":"技術ノート","category":"Network","tags":["リモートデスクトップ"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"リモートデスクトップ"}},
+    "staticQueryHashes": []}

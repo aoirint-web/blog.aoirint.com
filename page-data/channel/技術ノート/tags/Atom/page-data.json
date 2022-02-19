@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-channel-tag-search-tsx",
+    "path": "/channel/技術ノート/tags/Atom",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"09ac03e0-53bc-571d-a87f-cbab39bde375","slug":"2021/atom_setup/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Atom Text Editor Setup","date":"2021-05-14T01:00:00.000Z","updated":"2021-10-09T22:00:00.000Z","channel":"技術ノート","category":"Editor","tags":["Atom","テキストエディタ"]}}},{"node":{"id":"f9720725-a303-5e67-b5e1-e7dbc5721c8f","slug":"2020/atom_latex_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Atom + LaTeX in Docker","date":"2020-09-17T08:35:00.000Z","updated":"2021-05-14T01:00:00.000Z","channel":"技術ノート","category":"LaTeX","tags":["Atom","LaTeX","TeXLive","Docker"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"Atom"}},
+    "staticQueryHashes": []}

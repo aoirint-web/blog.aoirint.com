@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-components-tag-search-tsx",
     "path": "/tags/Make",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"62c6ed84-256d-51f3-bd0f-768bcd70dc01","slug":"2021/makefile_tips/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Makefile Tips","date":"2021-07-01T13:00:00.000Z","updated":"2022-01-14T22:40:00.000Z","category":"Command Utility","tags":["Command Utility","Make","Makefile"]}}}]}},"pageContext":{"tag":"Make"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"62c6ed84-256d-51f3-bd0f-768bcd70dc01","slug":"2021/makefile_tips/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Makefile Tips","date":"2021-07-01T13:00:00.000Z","updated":"2022-01-14T22:40:00.000Z","channel":"技術ノート","category":"Command Utility","tags":["Command Utility","Make","Makefile"]}}}]}},"pageContext":{"tag":"Make"}},
     "staticQueryHashes": []}
