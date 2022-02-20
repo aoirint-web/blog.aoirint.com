@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-category-search-page-layout-tsx",
+    "path": "/category/ストレージ",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"05ab12a9-8ba0-5a6a-9f08-381cf089a67e","slug":"2018/move_os_storage_scale_down/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"SSD換装時のOS移動（スケールダウン）","date":"2018-08-29T04:09:07.000Z","updated":null,"channel":"技術ノート","category":"ストレージ","tags":["ストレージ","OS"]}}}]}},"pageContext":{"category":"ストレージ"}},
+    "staticQueryHashes": []}
