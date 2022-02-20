@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
+    "path": "/channel/技術ノート/tags/Cortana",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"9281317a-a04f-5aee-9bd9-1fb1692920ac","slug":"2017/windows_cortana_remove_recent/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Windows10でCortanaの検索結果から\"Recent\"を消去する","date":"2017-10-29T12:24:30.000Z","updated":null,"channel":"技術ノート","category":"Windows","tags":["Windows","Cortana"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"Cortana"}},
+    "staticQueryHashes": []}
