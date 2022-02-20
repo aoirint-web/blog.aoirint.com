@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
+    "path": "/channel/技術ノート/tags/NFC",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"5697f9ed-e000-5fc5-84ac-e76763e1a99f","slug":"2018/python_pasori_nfc_read_idm/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"PythonからPaSoRiを使って交通系ICカードのIDmを読む","date":"2018-08-30T16:46:19.000Z","updated":null,"channel":"技術ノート","category":"NFC","tags":["NFC","Python"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"NFC"}},
+    "staticQueryHashes": []}
