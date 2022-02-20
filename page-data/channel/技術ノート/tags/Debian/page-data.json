@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
     "path": "/channel/技術ノート/tags/Debian",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"bcbb8fe1-9992-5896-9de2-d7ba9198d03f","slug":"2020/extract_from_deb_file/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Debianパッケージから内容物を抽出する","date":"2020-12-08T22:40:00.000Z","updated":null,"channel":"技術ノート","category":"Ubuntu","tags":["Ubuntu","Debian"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"Debian"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"622ac158-5f59-5362-8d4f-5a06ea9851f6","slug":"2020/extract_from_deb_file/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Debianパッケージから内容物を抽出する","date":"2020-12-08T22:40:00.000Z","updated":null,"channel":"技術ノート","category":"Ubuntu","tags":["Ubuntu","Debian"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"Debian"}},
     "staticQueryHashes": []}

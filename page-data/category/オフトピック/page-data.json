@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-category-search-page-layout-tsx",
+    "path": "/category/オフトピック",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"2573e22f-98a6-537c-90dc-f2634172567a","slug":"dummy","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"ダミー記事","date":"2022-02-20T16:00:00.000Z","updated":null,"channel":"技術ノート","category":"オフトピック","tags":["オフトピック"]}}}]}},"pageContext":{"category":"オフトピック"}},
+    "staticQueryHashes": []}

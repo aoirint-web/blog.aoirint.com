@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
     "path": "/channel/技術ノート/tags/Wiki.js",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"4060151a-fac0-550b-8b25-37986c01f6bc","slug":"2021/wikijs/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Wiki.jsのセットアップ","date":"2021-06-01T05:00:00.000Z","updated":null,"channel":"技術ノート","category":"Blogging","tags":["Blogging","Wiki","Wiki.js"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"Wiki.js"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"92db8547-d9b6-5d5d-86f4-418c2799a443","slug":"2021/wikijs/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Wiki.jsのセットアップ","date":"2021-06-01T05:00:00.000Z","updated":null,"channel":"技術ノート","category":"Blogging","tags":["Blogging","Wiki","Wiki.js"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"Wiki.js"}},
     "staticQueryHashes": []}

@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-layouts-tag-search-page-layout-tsx",
     "path": "/tags/MediaWiki",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"a5ca34b8-8dea-573e-8917-ff7fbda9f837","slug":"2022/mediawiki_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"MediaWikiのセットアップ","date":"2022-02-03T07:00:00.000Z","updated":null,"channel":"技術ノート","category":"Blogging","tags":["Blogging","Wiki","MediaWiki"]}}}]}},"pageContext":{"tag":"MediaWiki"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"da01d486-9876-5a3d-a7d3-720e0f208ae3","slug":"2022/mediawiki_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"MediaWikiのセットアップ","date":"2022-02-03T07:00:00.000Z","updated":null,"channel":"技術ノート","category":"Blogging","tags":["Blogging","Wiki","MediaWiki"]}}}]}},"pageContext":{"tag":"MediaWiki"}},
     "staticQueryHashes": []}

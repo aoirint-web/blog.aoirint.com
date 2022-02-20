@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
     "path": "/channel/技術ノート/tags/Miyadaiku",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"2b5fc000-0417-518a-a7e1-71a4c9ff3388","slug":"2020/miyadaiku_github_actions/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"静的サイトジェネレータMiyadaiku + GitHub Actions + GitHub Pagesでブログを作る","date":"2020-09-09T09:48:39.000Z","updated":null,"channel":"技術ノート","category":"Blogging","tags":["Blogging","Miyadaiku","Static Website","GitHub","GitHub Actions","CI CD"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"Miyadaiku"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"86f7ebb6-942b-5ab7-a551-a29fd3ab6bc8","slug":"2020/miyadaiku_github_actions/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"静的サイトジェネレータMiyadaiku + GitHub Actions + GitHub Pagesでブログを作る","date":"2020-09-09T09:48:39.000Z","updated":null,"channel":"技術ノート","category":"Blogging","tags":["Blogging","Miyadaiku","Static Website","GitHub","GitHub Actions","CI CD"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"Miyadaiku"}},
     "staticQueryHashes": []}
