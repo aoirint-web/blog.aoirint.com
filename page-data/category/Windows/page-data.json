@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-layouts-category-search-page-layout-tsx",
     "path": "/category/Windows",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"9281317a-a04f-5aee-9bd9-1fb1692920ac","slug":"2017/windows_cortana_remove_recent/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Windows10でCortanaの検索結果から\"Recent\"を消去する","date":"2017-10-29T12:24:30.000Z","updated":null,"channel":"技術ノート","category":"Windows","tags":["Windows","Cortana"]}}}]}},"pageContext":{"category":"Windows"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"9281317a-a04f-5aee-9bd9-1fb1692920ac","slug":"2017/windows_cortana_remove_recent/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Windows10でCortanaの検索結果から\"Recent\"を消去する","date":"2017-10-29T12:24:30.000Z","updated":null,"channel":"技術ノート","category":"Windows","tags":["Windows","Cortana"]}}},{"node":{"id":"599dbc17-c0e4-51fb-89ff-9e6caa677522","slug":"2018/windows_git_private_repository_not_found/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"プライベートリポジトリに対してgit cloneがNot Found吐くとき（複数アカウント運用）","date":"2018-08-29T03:47:08.000Z","updated":null,"channel":"技術ノート","category":"Windows","tags":["Windows","Git"]}}}]}},"pageContext":{"category":"Windows"}},
     "staticQueryHashes": []}
