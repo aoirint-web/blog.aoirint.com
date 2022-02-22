@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-tag-search-page-layout-tsx",
+    "path": "/tags/Emulator",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"7eb2427d-752c-594b-94d7-f28a4e324345","slug":"2020/visualboy_m_docker/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"VBA-M on Docker","date":"2020-09-06T21:30:51.000Z","updated":null,"channel":"技術ノート","category":"Emulator","tags":["Emulator","Docker"]}}}]}},"pageContext":{"tag":"Emulator"}},
+    "staticQueryHashes": []}
