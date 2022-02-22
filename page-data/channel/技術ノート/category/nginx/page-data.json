@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-channel-category-search-page-layout-tsx",
+    "path": "/channel/技術ノート/category/nginx",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"d19db878-5fff-5060-af18-fc1665e1dd64","slug":"2020/nginx_basicauth_reverseproxy_staticfiles/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"nginx basic auth, reverse proxy, static files","date":"2020-03-27T10:30:13.000Z","updated":null,"channel":"技術ノート","category":"nginx","tags":["nginx","Web"]}}}]}},"pageContext":{"channel":"技術ノート","category":"nginx"}},
+    "staticQueryHashes": []}
