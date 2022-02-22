@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-tag-search-page-layout-tsx",
+    "path": "/tags/VirtualDevice",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"7da5879a-cf55-52dd-9ee8-64647174f992","slug":"2020/ubuntu_desktop_audio_output_to_zoom_input/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu上のデスクトップ音声出力をZoomの音声入力にする（PulseAudio）","date":"2020-05-19T12:35:27.000Z","updated":null,"channel":"技術ノート","category":"Remote","tags":["Remote","VirtualDevice"]}}},{"node":{"id":"530683b3-6f44-5aab-a82b-c8be31a71c24","slug":"2020/ubuntu_obs_virtualcam/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Ubuntu上のOBSでVirtualCamを使う（デスクトップ映像を仮想カメラに送る）","date":"2020-05-15T18:58:53.000Z","updated":null,"channel":"技術ノート","category":"Remote","tags":["Remote","VirtualDevice"]}}}]}},"pageContext":{"tag":"VirtualDevice"}},
+    "staticQueryHashes": []}
