@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-category-search-page-layout-tsx",
+    "path": "/category/Web",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"f9697c6e-a606-5d17-b2f9-bfe168fc3dbd","slug":"2020/ogp/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"OGP / Open Graph Protocol, favicon","date":"2020-03-15T10:18:34.000Z","updated":null,"channel":"技術ノート","category":"Web","tags":["Web"]}}}]}},"pageContext":{"category":"Web"}},
+    "staticQueryHashes": []}
