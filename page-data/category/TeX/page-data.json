@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-category-search-page-layout-tsx",
+    "path": "/category/TeX",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"39fcb2ac-e838-536a-a391-e0d3fcb40c1e","slug":"2020/ubuntu_install_texlive/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Install TexLive on Ubuntu 18.04","date":"2020-04-12T01:49:01.000Z","updated":null,"channel":"技術ノート","category":"TeX","tags":["TeX","Ubuntu"]}}}]}},"pageContext":{"category":"TeX"}},
+    "staticQueryHashes": []}
