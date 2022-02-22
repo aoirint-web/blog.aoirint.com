@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-category-search-page-layout-tsx",
+    "path": "/category/ComputerVision",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"0ee81b93-97dc-5c3e-bb28-611083236418","slug":"2020/computer_vision_pinhole_camera_model/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"ピンホールカメラモデル","date":"2020-03-21T03:16:21.000Z","updated":null,"channel":"技術ノート","category":"ComputerVision","tags":["ComputerVision"]}}}]}},"pageContext":{"category":"ComputerVision"}},
+    "staticQueryHashes": []}
