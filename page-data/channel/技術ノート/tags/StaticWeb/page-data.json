@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
+    "path": "/channel/技術ノート/tags/StaticWeb",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"c6904bcb-a536-53e0-8bf9-ecfcd9149d7e","slug":"2020/username_github_io/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"github.io","date":"2020-03-15T10:09:37.000Z","updated":null,"channel":"技術ノート","category":"GitHub","tags":["GitHub","Web","StaticWeb"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"StaticWeb"}},
+    "staticQueryHashes": []}
