@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-tag-search-page-layout-tsx",
+    "path": "/tags/Jetson Nano",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"7b94e649-4dc0-53e8-882a-9a8c3ecb44d2","slug":"2019/jetson_nano_setup_and_try/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Jetson Nano セットアップとおためし","date":"2019-12-02T10:00:00.000Z","updated":null,"channel":"技術ノート","category":"Jetson Nano","tags":["Jetson Nano","機械学習","組み込み"]}}}]}},"pageContext":{"tag":"Jetson Nano"}},
+    "staticQueryHashes": []}
