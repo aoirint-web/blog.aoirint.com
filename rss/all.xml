@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[えやみぐさ All RSS Feed]]></title><description><![CDATA[えやみぐさ All RSS Feed]]></description><link>https://blog.aoirint.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Feb 2022 09:46:21 GMT</lastBuildDate><item><title><![CDATA[はてなブログから古い記事を移しました]]></title><description><![CDATA[はてなブログから古い記事を移しました 新しい記事 blog.aoirint.com へ投稿しつつ、
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[えやみぐさ All RSS Feed]]></title><description><![CDATA[えやみぐさ All RSS Feed]]></description><link>https://blog.aoirint.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Feb 2022 09:46:33 GMT</lastBuildDate><item><title><![CDATA[はてなブログから古い記事を移しました]]></title><description><![CDATA[はてなブログから古い記事を移しました 新しい記事 blog.aoirint.com へ投稿しつつ、
 古い記事は aoirint.hatenablog.com に残っていましたが、
 古い記事を blog.aoirint.com…]]></description><link>https://blog.aoirint.com/entry/2022/moved_from_hatenablog/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2022/moved_from_hatenablog/</guid><pubDate>Tue, 22 Feb 2022 20:40:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;はてなブログから古い記事を移しました&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E3%81%8B%E3%82%89%E5%8F%A4%E3%81%84%E8%A8%98%E4%BA%8B%E3%82%92%E7%A7%BB%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F&quot; aria-label=&quot;はてなブログから古い記事を移しました permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;はてなブログから古い記事を移しました&lt;/h1&gt;&lt;p&gt;新しい記事 blog.aoirint.com へ投稿しつつ、
 古い記事は aoirint.hatenablog.com に残っていましたが、
@@ -264,7 +264,27 @@ sudo mv NVIDIA-Linux-x86_64-495.29.05 /opt/
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;再起動する。&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo ldconfig
 
 sudo reboot
-&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Hexo]]></title><description><![CDATA[Hexo https://hexo.io/docs/#Installation hexo init <folder> は空のディレクトリに対して実行する必要がある。
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[VOICEVOXのコア、Raspberry Pi版のプルリクエストがマージされた。うれしい。 ﾂﾑｷﾞﾁｬﾝｶﾜｲｲﾔｯﾀｰ!
+来週には新キャラクター追加のβリリースがされそう。開発者向けの公開だけかもしれないけど、どうなんだろう。
+Web…]]></description><link>https://blog.aoirint.com/entry/2021/11/18/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2021/11/18/</guid><pubDate>Thu, 18 Nov 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;VOICEVOXのコア、Raspberry Pi版のプルリクエストがマージされた。うれしい。&lt;/p&gt;&lt;p&gt;ﾂﾑｷﾞﾁｬﾝｶﾜｲｲﾔｯﾀｰ!
+来週には新キャラクター追加のβリリースがされそう。開発者向けの公開だけかもしれないけど、どうなんだろう。
+Webサイト（ボイボ寮）を作って、動画を作って、と告知の準備を進めている段階。
+前回のスタイルアップデートで動画作成をスキップしたので、今度は作るということなのだろうけれど、
+間に合うのか（大変そう）。&lt;/p&gt;&lt;p&gt;ブログの方は、Hexoのnoindexと相性がよくない気がしている。
+テーマがHTMLのすべてを決めていると思うので、テーマ次第になってしまうのだけれど、
+カスタム面倒くさいし、デフォルトで提供されていないってことは想定している使い方ではないってことなんだよなぁ。
+それはそう、ふつうはSEOを意識して検索インデックスの上の方に出てきてほしいよね。
+ページランクを意図的に下げるみたいなフラグがほしい（noindexでいい）。
+個々のページにURLを発行しないみたいなのもできる気がするけど、作るの面倒くさい。&lt;/p&gt;&lt;p&gt;PBL講義の一環として、Androidアプリを作る計画がある。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Kamishibai（仮名）：&lt;a href=&quot;https://github.com/aoirint/Kamishibai&quot;&gt;https://github.com/aoirint/Kamishibai&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;イメージとしては、スライドショー付き音楽プレイヤーで、複雑なシステムではない。
+Spotifyのキャンバスが近いかもしれない。
+ベースのアイデアは、過去にプロトタイプレベルのAndroidアプリとして途中まで作っていて、
+GitHub上にあるCampMusicPlayerとMadPlayerDroidがそれにあたる。
+これをきちんと完成させたい、というものになる。&lt;/p&gt;&lt;p&gt;開発としては、流行りの? Jetpack Compose / Kotlinを使うつもり。
+ReactかNext.jsかElectronかで書こうとしたリポジトリもあった気がするけど、
+Android組み込みのメディア機能を使いたい感じがしていて、相性がよくわからない。&lt;/p&gt;&lt;p&gt;Hexoのテーマをforkして、noindexとno-referrerを挿し込んでみた。
+なんか二重にnoindexが定義されちゃうけど、仕方ない。
+特定のカテゴリにnoindexと、ブログトップからの除去を実装したいけど、面倒くさい。
+それができたら技術ブログと統合してもいいか...? どうなんだろう&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hexo]]></title><description><![CDATA[Hexo https://hexo.io/docs/#Installation hexo init <folder> は空のディレクトリに対して実行する必要がある。
 いったん仮のディレクトリを作ってからコピーする。 .github 、 .gitignore…]]></description><link>https://blog.aoirint.com/entry/2021/hexo/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2021/hexo/</guid><pubDate>Wed, 17 Nov 2021 04:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;hexo&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#hexo&quot; aria-label=&quot;hexo permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hexo&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://hexo.io/docs/#Installation&quot;&gt;https://hexo.io/docs/#Installation&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;npm install -g hexo-cli
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;$ hexo help
 Usage: hexo &amp;lt;command&amp;gt;
@@ -303,40 +323,4 @@ theme: light
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;生成した静的ファイルをデプロイする。&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;hexo deploy
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;記事を限定公開化するhiddenオプションをfront-matterに追加する。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://prokou.caitsith.info/hexo/setup.html#%E8%A8%98%E4%BA%8B%E3%82%92%E9%9A%A0%E3%81%99&quot;&gt;https://prokou.caitsith.info/hexo/setup.html#%E8%A8%98%E4%BA%8B%E3%82%92%E9%9A%A0%E3%81%99&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/prinsss/hexo-hide-posts&quot;&gt;https://github.com/prinsss/hexo-hide-posts&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;npm install hexo-hide-posts
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;外部リンクにnoreferrerを追加する。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/hexojs/hexo-filter-nofollow&quot;&gt;https://github.com/hexojs/hexo-filter-nofollow&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;pre&gt;&lt;code&gt;npm install hexo-filter-nofollow
-&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[VOICEVOX 15日にVOICEVOXへのプルリクエストを出した。 https://github.com/Hiroshiba/voicevox_core/pull/41 ONNX版がリリースされてからになるが、
-Raspberry Pi環境で製品版VOICEVOX CORE…]]></description><link>https://blog.aoirint.com/entry/2021/11/27/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2021/11/27/</guid><pubDate>Wed, 17 Nov 2021 04:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;voicevox&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#voicevox&quot; aria-label=&quot;voicevox permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;VOICEVOX&lt;/h2&gt;&lt;p&gt;15日にVOICEVOXへのプルリクエストを出した。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/Hiroshiba/voicevox_core/pull/41&quot;&gt;https://github.com/Hiroshiba/voicevox_core/pull/41&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;ONNX版がリリースされてからになるが、
-Raspberry Pi環境で製品版VOICEVOX COREが動くようになるといい。&lt;/p&gt;&lt;p&gt;ONNX版への移行はいつ頃になるだろうか。
-現状で動作に問題はないので、優先度はあまり高くない感じだと思う。&lt;/p&gt;&lt;p&gt;追加キャラクター3人を予定していて、いまはHPの改修に力を入れているようなので、
-それらが終わったら手を付けられるだろうか（つむぎちゃんかわいい）。&lt;/p&gt;&lt;p&gt;VOICEVOXフロントエンドを動かすことは自分は考えていない。
-なんか大変そう（Electronをarmhf向けにビルドするのが）なわりに、合成に時間がかかって使いにくいと思う。
-コアがRasPiで動くのがおまけなら、おまけのおまけくらい。
-動画編集するならamd64＋NVIDIA GPUのこなれた環境でいいんじゃないかな。
-コアさえ提供されていれば、動かすことは不可能ではないし、ほしければ/いい活用のアイデアがあればPRしてほしい。&lt;/p&gt;&lt;p&gt;ENGINEはHTTP APIがついて便利なので、あった方がいいと思う（Dockerで使いやすくなるし）。
-二度手間になるので、暗号化周りが裏で実装されて、製品版ONNXコアのリリースが出てからENGINE進めるでいいかなと思っている。
-まあそのうち使えるようになっていたらうれしい。&lt;/p&gt;&lt;p&gt;それまでは、Hacobuneとかを使うといいと思う（β版で無料）。
-ライト版か外部デバイス版で推論高速化が実現しない限り、RasPi上での音声合成にはそれなりに時間がかかるので、Raspberry Pi版が出たとしても、外部のHTTP APIを使うのは有力な選択肢だと思う。&lt;/p&gt;&lt;h2 id=&quot;zukisuzuki&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#zukisuzuki&quot; aria-label=&quot;zukisuzuki permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;zukisuzuki&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://zukisuzukibgm.com/&quot;&gt;https://zukisuzukibgm.com/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;たいたぬさんの配信で聞いた。
-1000曲近い、いい感じの音楽が無料で、ゆるい利用規約で公開されている。すごい。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cash Back: &lt;a href=&quot;https://www.youtube.com/watch?v=yj_RT7epy_M&quot;&gt;https://www.youtube.com/watch?v=yj_RT7epy_M&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;これを聞きながら書いている。&lt;/p&gt;&lt;p&gt;これをするときはこの音楽を聞こう、みたいなこともできるかもしれない。&lt;/p&gt;&lt;h2 id=&quot;日記ブログ&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E6%97%A5%E8%A8%98%E3%83%96%E3%83%AD%E3%82%B0&quot; aria-label=&quot;日記ブログ permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;日記ブログ&lt;/h2&gt;&lt;p&gt;Hexoで日記用のブログを用意した。&lt;/p&gt;&lt;p&gt;Twitterは開かれすぎていて恥ずかしいし、下手な投稿をすると、エゴサする人とか、有識者とかを変に刺激して、攻撃的な反応をされることがある場所になっている。
-それはとても疲れるので、そういう攻撃にさらされにくく、個人的な文章を公開できる場所がほしかった。
-自分の考えを整理する機会がないので、半分自虐のお気持ち表明みたいなこともやるかもしれない。
-そういう意味で、自分への免罪符と、覗きに来る人への立て札として、サイト名をVent・排気口としている（あもあすの影響）。&lt;/p&gt;&lt;p&gt;こういった自分の思っていることを書く文章というのは、大抵の場合、恥ずかしくなったり、書くことがなかったりで、1つ2つ書いた時点で消したり、使わなくなってしまったりする。
-過去の記事タイトルや概要が一覧表示されると、恥ずかしくて消したくなってしまう。&lt;/p&gt;&lt;p&gt;そのあたりを考えると、細かいことを気にせずに書ける方法がいい。
-はてなブログは、UIは使いやすくて好きなのけれど、PRO版でないと、はてなキーワード機能で有識者を引き寄せてしまうのが怖い。SNS化されていない場所がいい。
-それならWordPressか、と思って一度VPSに立ててみたけれど、Markdownで書けない（プラグインのことは考えたくない）のがつらい。Markdownといっても、ソフトブレークなちゃんぽんだけど。
-DokuWikiとかMediaWikiが向いているとは思わない。Sphinxもカテゴリ/タグ機能がない感じが微妙。
-DBが必要というのはイケていない。
-ならGit管理だ、GitHubだ、SSGだ、となる。
-それで、なんかモダンなTypeScriptで書かれたHexoを試しに使ってみた、ということになる。
-ふだんはPythonで書かれたMiyadaikuを使っているのだけれど、ユーザが少ないので、あまりいいテーマがない。
-となると自作することになるのだけれど、2,3記事で爆破するかもしれないものにそこまでの労力をかけたくない。
-といっても、いまこのブログもデフォルトテーマのLandscapeを使っていて、その理由はあまりいいテーマがなかったからなのだけれども。Lightはよかったけどコメント欄が消せねえ。
-Git管理結構、GitHub結構、SSG結構なのだけれども、_postsディレクトリに過去の記事が全部出てくるのがイケてない。slugという仕組みとマッチしていない（なんでURLに2回日付が出てくるんですかね）。記事を作るときに記事の名前が必要なのもイケてない。
-画像を追加したら、音声を追加したら、どんどんリポジトリが重くなる。まあフルクローンする機会もそうそうないか。世の中のサービスはすぐにサ終するので、外部にアップロードはしたくない。
-ほかにもURLの永続性とか、いろいろ考え始めるとキリがないので、そのあたりの運用は適当になることをご承知おきいただきたい。
-あまり納得のいっていないHexoから乗り換えるときにURLをリダイレクトさせるとか面倒くさいので。
-あとなんか記事ジェネレータがバグっていて、生成されたmdファイルがそのままだとビルドできない（なぜか&lt;code&gt;{}&lt;/code&gt;がfront-matterに入り込んでいて、タイトルもUTC時刻になっている）&lt;/p&gt;&lt;p&gt;うーん、万が一この記事が攻撃の対象になったときに、言及している対象に迷惑がかからないように、とか余計なことを考えてしまう。
-それだったら記事を分割して、余計な言及をあいまいにして...としたりしなかったり（戻したり）しながら書いている。とても無駄だし、とてもストレスになる。
-はてなキーワードはこの意味でよくない。
-記事を分割すると書くまでもない、みたいなことが拾えずに気になってしまう。&lt;/p&gt;&lt;p&gt;リンクを張るならnoreferrerしないと、解析に残ってしまうな...。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/hexojs/hexo-filter-nofollow&quot;&gt;https://github.com/hexojs/hexo-filter-nofollow&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;これでよさそう。&lt;/p&gt;&lt;p&gt;悪意があるのかないのかわからないけど、攻撃的な反応と受け取ったことで、
-精神ダメージを受けている人を同時に2人観測するのはあんまりよくない（ふにちかさんとヒホさん）。
-そしてこういうのがエゴサにひっかかってしまうので、noindexせざるを得ない。&lt;/p&gt;&lt;p&gt;ずんだもんとかめたんちゃんを調声したやつをちょいちょい載せたりとかしてみたい（他の音声合成ソフトだと、素材の配布にあたる可能性があって、判断が難しい気がする。再利用目的じゃなければいいと思うけど）。
-動画作るのは時間かかるから難しいけど、自分もVOICEVOXのユーザになりたい。&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;プラネタリウムはいかがでしょう。 どんな時も決して消えることのない、美しい無窮のきらめき……。 満天の星々がみなさまをお待ちしています（planetarian ～ちいさなほしのゆめ～）&lt;/p&gt;&lt;/blockquote&gt;&lt;audio src=&quot;assets/プラネタリウムはいかがでしょう.mp3&quot; controls=&quot;&quot;&gt;&lt;/audio&gt;&lt;p&gt;VOICEVOX:四国めたん, &lt;a href=&quot;assets/プラネタリウムはいかがでしょう.vvproj&quot; download=&quot;&quot;&gt;プラネタリウムはいかがでしょう.vvproj&lt;/a&gt;（VOICEVOX 0.8.0）&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;さすラギっ（ふにんがす）&lt;/p&gt;&lt;/blockquote&gt;&lt;audio src=&quot;assets/さすラギっ.mp3&quot; controls=&quot;&quot;&gt;&lt;/audio&gt;&lt;p&gt;VOICEVOX:四国めたん, &lt;a href=&quot;assets/さすラギっ.vvproj&quot; download=&quot;&quot;&gt;さすラギっ.vvproj&lt;/a&gt;（VOICEVOX 0.7.5）&lt;/p&gt;&lt;p&gt;（如月ラギさんに対して、さすがです、の意味。言葉自体はおそらくコメント由来、調声はまねていないが、音声化はじょかあきさんの動画由来？）&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item></channel></rss>
