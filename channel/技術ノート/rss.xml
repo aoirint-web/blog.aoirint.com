@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[えやみぐさ 技術ノート RSS Feed]]></title><description><![CDATA[技術に関するメモ書き]]></description><link>https://blog.aoirint.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Jun 2022 22:43:28 GMT</lastBuildDate><item><title><![CDATA[pip-compileでMetadataGenerationFailedの例外が起きる]]></title><description><![CDATA[pip-compileでMetadataGenerationFailedの例外が起きる pip-compileは、pip-toolsパッケージ（jazzband/pip-tools）に含まれるコマンドで、
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[えやみぐさ 技術ノート RSS Feed]]></title><description><![CDATA[技術に関するメモ書き]]></description><link>https://blog.aoirint.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Jun 2022 22:48:53 GMT</lastBuildDate><item><title><![CDATA[pip-compileでMetadataGenerationFailedの例外が起きる]]></title><description><![CDATA[pip-compileでMetadataGenerationFailedの例外が起きる pip-compileは、pip-toolsパッケージ（jazzband/pip-tools）に含まれるコマンドで、
 Pythonパッケージのリスト requirements.in…]]></description><link>https://blog.aoirint.com/entry/2022/pip_compile_metadata_generation_failed/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2022/pip_compile_metadata_generation_failed/</guid><pubDate>Fri, 24 Jun 2022 07:10:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;pip-compileでmetadatagenerationfailedの例外が起きる&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#pip-compile%E3%81%A7metadatagenerationfailed%E3%81%AE%E4%BE%8B%E5%A4%96%E3%81%8C%E8%B5%B7%E3%81%8D%E3%82%8B&quot; aria-label=&quot;pip compileでmetadatagenerationfailedの例外が起きる permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;pip-compileでMetadataGenerationFailedの例外が起きる&lt;/h1&gt;&lt;p&gt;pip-compileは、pip-toolsパッケージ（jazzband/pip-tools）に含まれるコマンドで、
 Pythonパッケージのリスト&lt;code&gt;requirements.in&lt;/code&gt;から、
 依存ツリーのライブラリバージョンリスト&lt;code&gt;requirements.txt&lt;/code&gt;を出力してくれる便利なツールである。&lt;/p&gt;&lt;details&gt;&lt;summary&gt;入力例 requirements.in&lt;/summary&gt;&lt;pre&gt;&lt;code&gt;django
@@ -63,7 +63,167 @@ Pythonパッケージのインストールと同時にC言語コードからネ�
 PyPIやパッケージの公式ドキュメントに利用者向けの記載があるはずなので、
 そちらを確認してインストールしてからpip-compileを実行すると解消するだろう。&lt;/p&gt;&lt;p&gt;例えば、PostgreSQLドライバのpsycopg2は、以下のようなパッケージの事前インストールが必要である。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cコンパイラ&lt;/li&gt;&lt;li&gt;Pythonのヘッダ&lt;/li&gt;&lt;li&gt;Postgresライブラリlibpqのヘッダ&lt;/li&gt;&lt;/ul&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo apt install python3-dev libpq-dev build-essential
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://pypi.org/project/psycopg2/&quot;&gt;https://pypi.org/project/psycopg2/&lt;/a&gt; （現在 psycopg2==2.9.3）&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.psycopg.org/docs/install.html#build-prerequisites&quot;&gt;https://www.psycopg.org/docs/install.html#build-prerequisites&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;MySQLドライバのmysqlclientは、以下のようなパッケージの事前インストールが必要である。&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo apt install python3-dev default-libmysqlclient-dev build-essential
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://pypi.org/project/mysqlclient/&quot;&gt;https://pypi.org/project/mysqlclient/&lt;/a&gt; （現在 mysqlclient==2.1.1）&lt;/li&gt;&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[VOICEVOX Core 0.5.1をUbuntu + GPU + Pythonで使う（exampleを動かすまで）]]></title><description><![CDATA[VOICEVOX Core 0.5.1をUbuntu + GPU + Pythonで使う（exampleを動かすまで） ※ VOICEVOX Coreにより生成した音声の利用にあたっては、VOICEVOX Coreの添付文書・利用規約を必ず確認し、従ってください。 https…]]></description><link>https://blog.aoirint.com/entry/2021/voicevox_core/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2021/voicevox_core/</guid><pubDate>Sat, 11 Sep 2021 23:40:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;voicevox-core-051をubuntu--gpu--pythonで使うexampleを動かすまで&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#voicevox-core-051%E3%82%92ubuntu--gpu--python%E3%81%A7%E4%BD%BF%E3%81%86example%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99%E3%81%BE%E3%81%A7&quot; aria-label=&quot;voicevox core 051をubuntu  gpu  pythonで使うexampleを動かすまで permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;VOICEVOX Core 0.5.1をUbuntu + GPU + Pythonで使う（exampleを動かすまで）&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;※ VOICEVOX Coreにより生成した音声の利用にあたっては、VOICEVOX Coreの添付文書・利用規約を必ず確認し、従ってください。&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/Hiroshiba/voicevox_core&quot;&gt;https://github.com/Hiroshiba/voicevox_core&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;pre&gt;&lt;code&gt;Ubuntu 20.04.3 LTS (Focal Fossa)
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://pypi.org/project/mysqlclient/&quot;&gt;https://pypi.org/project/mysqlclient/&lt;/a&gt; （現在 mysqlclient==2.1.1）&lt;/li&gt;&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[自宅サーバのWebサービスをVPSで中継するようにした]]></title><description><![CDATA[自宅サーバのWebサービスをVPSで中継するようにした これまで自宅サーバへの外部からの接続には、
+数年前から自宅のグローバルIPアドレスにフリーのドメインを紐づけて使っていたのですが、…]]></description><link>https://blog.aoirint.com/entry/2022/proxy_webservice_on_home_server_with_vps/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2022/proxy_webservice_on_home_server_with_vps/</guid><pubDate>Thu, 07 Apr 2022 11:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;自宅サーバのwebサービスをvpsで中継するようにした&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%81%AEweb%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92vps%E3%81%A7%E4%B8%AD%E7%B6%99%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F&quot; aria-label=&quot;自宅サーバのwebサービスをvpsで中継するようにした permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;自宅サーバのWebサービスをVPSで中継するようにした&lt;/h1&gt;&lt;p&gt;これまで自宅サーバへの外部からの接続には、
+数年前から自宅のグローバルIPアドレスにフリーのドメインを紐づけて使っていたのですが、
+3月末に更新を忘れてこのドメインを失効させてしまいました。&lt;/p&gt;&lt;p&gt;自宅サーバでは、主に個人用のWebサービスや身内用のゲームサーバが動いています。&lt;/p&gt;&lt;p&gt;同じドメインを再取得するには追加の料金がかかりますし、（若干用途が規約的に怪しいこともあり）新しくドメインを取り直す気にもなれなかったので、
+以前から契約していたVPSをTCP/UDPプロキシとして使ってみることにしました。&lt;/p&gt;&lt;p&gt;この記事では、nginx.confのhttpディレクティブとstreamディレクティブそれぞれについて、拡張子でincludeを切り分けるようにする構成にしています。
+基本的には、nginx.confに以下のように記述するイメージです。&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;language-nginx&quot;&gt;http {
+        include /etc/nginx/conf.d/*.http;
+}
+
+stream {
+        include /etc/nginx/conf.d/*.stream;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;関連ツイート&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://twitter.com/aoirint/status/1510309731642257408&quot;&gt;https://twitter.com/aoirint/status/1510309731642257408&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://twitter.com/aoirint/status/1511896279731040261&quot;&gt;https://twitter.com/aoirint/status/1511896279731040261&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;また、この記事の内容には関係ありませんが、envsubstでconfigファイルに環境変数を注入する、nginxのDocker Hub公式Dockerイメージのtemplate機能を使用しているため、
+nginx設定ファイルの拡張子がtemplateになっています。&lt;/p&gt;&lt;p&gt;上のツイートに関連して、&lt;code&gt;certbot --nginx&lt;/code&gt;で自動生成される&lt;code&gt;/etc/letsencrypt/options-ssl-nginx.conf&lt;/code&gt;を手動で&lt;code&gt;nginx.conf&lt;/code&gt;に統合しているので、
+以下の設定ではコメントアウトされているincludeがあります。&lt;/p&gt;&lt;h2 id=&quot;構成&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E6%A7%8B%E6%88%90&quot; aria-label=&quot;構成 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;構成&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;自宅サーバ側：systemd + autosshによる自動SSH接続＆リモートポート転送&lt;/li&gt;&lt;li&gt;VPS側：nginxによるHTTPリバースプロキシ・UDPプロキシ&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;自宅サーバ側&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E5%81%B4&quot; aria-label=&quot;自宅サーバ側 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;自宅サーバ側&lt;/h2&gt;&lt;h3 id=&quot;sshconfig&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#sshconfig&quot; aria-label=&quot;sshconfig permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;~/.ssh/config&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;language-ssh&quot;&gt;Host vps*
+    HostName VPS_IPADDR
+    Port VPS_SSH_PORT
+    ServerAliveInterval 10
+    ServerAliveCountMax 5
+    TCPKeepAlive yes
+    IdentitiesOnly yes
+    IdentityFile ~/.ssh/vps
+
+Host vps-forwarding-homeserver
+    # SERVICE1
+    RemoteForward 127.0.0.1:VPS_SERVICE1_PORT 127.0.0.1:LOCAL_SERVICE1_PORT
+
+    # SERVICE2
+    RemoteForward 127.0.0.1:VPS_SERVICE2_PORT 127.0.0.1:LOCAL_SERVICE2_PORT
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;etcsystemdsystemautossh-vpsservice&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#etcsystemdsystemautossh-vpsservice&quot; aria-label=&quot;etcsystemdsystemautossh vpsservice permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;/etc/systemd/system/autossh-vps.service&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;language-systemd&quot;&gt;[Unit]
+Description=AutoSSH VPS
+
+[Service]
+Type=simple
+Restart=always
+User=user
+Group=user
+WorkingDirectory=/home/user
+ExecStart=/usr/bin/autossh -N vps-forwarding-homeserver
+
+[Install]
+WantedBy=multi-user.target
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;vps側&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#vps%E5%81%B4&quot; aria-label=&quot;vps側 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;VPS側&lt;/h2&gt;&lt;h3 id=&quot;httpリバースプロキシsshポート転送使用-myservicehttptemplate&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#http%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7ssh%E3%83%9D%E3%83%BC%E3%83%88%E8%BB%A2%E9%80%81%E4%BD%BF%E7%94%A8-myservicehttptemplate&quot; aria-label=&quot;httpリバースプロキシsshポート転送使用 myservicehttptemplate permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTPリバースプロキシ（SSHポート転送使用）: myservice.http.template&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;language-nginx&quot;&gt;server {
+    server_name myservice.example.com;
+
+    client_max_body_size 500M;
+
+    add_header Strict-Transport-Security &amp;#x27;max-age=15552000; includeSubDomains; preload&amp;#x27;;
+
+    location / {
+        #auth_basic &amp;quot;Auth required&amp;quot;;
+        #auth_basic_user_file /secrets/myservice.htpasswd;
+
+        proxy_pass http://127.0.0.1:VPS_MYSERVICE_PORT;
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+        send_timeout 3600s;
+        proxy_connect_timeout 3600s;
+        proxy_send_timeout 3600s;
+        proxy_read_timeout 3600s;
+        #proxy_max_temp_file_size 2048m;
+    }
+
+    location /.well-known/acme-challenge/ {
+        root /letsencrypt-webroot;
+    }
+
+    listen 443 ssl;
+    ssl_certificate /etc/letsencrypt/live/myservice.example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/myservice.example.com/privkey.pem;
+    # include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+}
+
+server {
+    if ($host = myservice.example.com) {
+        return 301 https://$host$request_uri;
+    }
+
+    server_name myservice.example.com;
+    listen 80;
+    return 404;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;udpポート転送sshポート転送不使用-myserviceudpstreamtemplate&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#udp%E3%83%9D%E3%83%BC%E3%83%88%E8%BB%A2%E9%80%81ssh%E3%83%9D%E3%83%BC%E3%83%88%E8%BB%A2%E9%80%81%E4%B8%8D%E4%BD%BF%E7%94%A8-myserviceudpstreamtemplate&quot; aria-label=&quot;udpポート転送sshポート転送不使用 myserviceudpstreamtemplate permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UDPポート転送（SSHポート転送不使用）: myserviceudp.stream.template&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;language-nginx&quot;&gt;server {
+        listen VPS_SERVICEUDP_PORT udp reuseport;
+
+        proxy_pass HOME_IPADDR:HOME_SERVICEUDP_PORT;
+        proxy_connect_timeout 3600s;
+        proxy_timeout 3600s;
+        #proxy_max_temp_file_size 2048m;
+}
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[はてなブログから古い記事を移した]]></title><description><![CDATA[はてなブログから古い記事を移した 新しい記事 blog.aoirint.com へ投稿しつつ、
+古い記事は aoirint.hatenablog.com に残っていましたが、
+古い記事を blog.aoirint.com…]]></description><link>https://blog.aoirint.com/entry/2022/moved_from_hatenablog/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2022/moved_from_hatenablog/</guid><pubDate>Tue, 22 Feb 2022 20:40:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;はてなブログから古い記事を移した&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E3%81%8B%E3%82%89%E5%8F%A4%E3%81%84%E8%A8%98%E4%BA%8B%E3%82%92%E7%A7%BB%E3%81%97%E3%81%9F&quot; aria-label=&quot;はてなブログから古い記事を移した permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;はてなブログから古い記事を移した&lt;/h1&gt;&lt;p&gt;新しい記事 blog.aoirint.com へ投稿しつつ、
+古い記事は aoirint.hatenablog.com に残っていましたが、
+古い記事を blog.aoirint.com に移しました。&lt;/p&gt;&lt;p&gt;古い記事にはリダイレクトと移動先へのリンクを設置しています。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/x-motemen/blogsync&quot;&gt;https://github.com/x-motemen/blogsync&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;blogsyncで記事を取得したあと、以下のようなスクリプトでfrontmatterを変換しました。&lt;/p&gt;&lt;p&gt;以前の移行時の作業ミスでMarkdown記事がHTMLになってしまっていたので、
+手動でMarkdownに書き戻しました。&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;import glob
+import yaml
+from datetime import datetime
+from pathlib import Path
+import frontmatter as FM
+
+for path in glob.glob(&amp;#x27;**/*.md&amp;#x27;, recursive=True):
+  if path.startswith(&amp;#x27;output&amp;#x27;):
+    continue
+
+  print(path)
+  with open(path, &amp;#x27;r&amp;#x27;) as fp:
+    frontmatter = FM.load(fp)
+    # docs = yaml.safe_load_all(fp)
+    # frontmatter = next(docs)
+    # body = next(docs)
+
+  body = frontmatter.content
+  print(frontmatter)
+  print(body)
+
+  title = frontmatter[&amp;#x27;Title&amp;#x27;]
+  if title.startswith(&amp;#x27;（移動済）&amp;#x27;):
+    print(f&amp;#x27;Skipped: {title}&amp;#x27;)
+    continue
+
+  print(f&amp;#x27;Processing: {title}&amp;#x27;)
+
+  original_url = frontmatter[&amp;#x27;URL&amp;#x27;]
+  date: datetime = frontmatter[&amp;#x27;Date&amp;#x27;]
+  draft = frontmatter.get(&amp;#x27;Draft&amp;#x27;, False)
+
+  tags = frontmatter.get(&amp;#x27;Category&amp;#x27;)
+  category = tags[0] if tags else None
+
+  new_frontmatter = {
+    &amp;#x27;title&amp;#x27;: title,
+    &amp;#x27;date&amp;#x27;: date.strftime(&amp;#x27;%Y-%m-%d %H:%M:%S&amp;#x27;),
+    &amp;#x27;draft&amp;#x27;: draft,
+    &amp;#x27;channel&amp;#x27;: &amp;#x27;技術ノート&amp;#x27;,
+  }
+  if category:
+    new_frontmatter[&amp;#x27;category&amp;#x27;] = category
+  if tags:
+    new_frontmatter[&amp;#x27;tags&amp;#x27;] = tags
+
+  output = yaml.dump(new_frontmatter, default_flow_style=False, sort_keys=False, allow_unicode=True)
+  output_lines = output.split(&amp;#x27;\n&amp;#x27;)
+  output_lines.insert(0, f&amp;#x27;---&amp;#x27;)
+  output_lines.insert(1, f&amp;#x27;# moved from {original_url}&amp;#x27;)
+  output_lines.insert(-1, f&amp;#x27;---&amp;#x27;)
+  output = &amp;#x27;\n&amp;#x27;.join(output_lines)
+  output += f&amp;#x27;# {title}\n\n&amp;#x27; + body + &amp;#x27;\n&amp;#x27;
+
+  dest = Path(&amp;#x27;output&amp;#x27;, path)
+  dest.parent.mkdir(parents=True, exist_ok=True)
+
+  with open(dest, &amp;#x27;w&amp;#x27;) as fp:
+    fp.write(output)
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[VOICEVOX Core 0.5.1をUbuntu + GPU + Pythonで使う（exampleを動かすまで）]]></title><description><![CDATA[VOICEVOX Core 0.5.1をUbuntu + GPU + Pythonで使う（exampleを動かすまで） ※ VOICEVOX Coreにより生成した音声の利用にあたっては、VOICEVOX Coreの添付文書・利用規約を必ず確認し、従ってください。 https…]]></description><link>https://blog.aoirint.com/entry/2021/voicevox_core/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2021/voicevox_core/</guid><pubDate>Sat, 11 Sep 2021 23:40:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;voicevox-core-051をubuntu--gpu--pythonで使うexampleを動かすまで&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#voicevox-core-051%E3%82%92ubuntu--gpu--python%E3%81%A7%E4%BD%BF%E3%81%86example%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99%E3%81%BE%E3%81%A7&quot; aria-label=&quot;voicevox core 051をubuntu  gpu  pythonで使うexampleを動かすまで permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;VOICEVOX Core 0.5.1をUbuntu + GPU + Pythonで使う（exampleを動かすまで）&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;※ VOICEVOX Coreにより生成した音声の利用にあたっては、VOICEVOX Coreの添付文書・利用規約を必ず確認し、従ってください。&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/Hiroshiba/voicevox_core&quot;&gt;https://github.com/Hiroshiba/voicevox_core&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;pre&gt;&lt;code&gt;Ubuntu 20.04.3 LTS (Focal Fossa)
 
 Python 3.9.6 (pyenv)
 

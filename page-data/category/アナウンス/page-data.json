@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-layouts-category-search-page-layout-tsx",
-    "path": "/category/アナウンス",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"4654e131-de2a-5038-a365-268dbecb5596","slug":"2022/moved_from_hatenablog/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"はてなブログから古い記事を移した","date":"2022-02-22T20:40:00.000Z","updated":null,"channel":"レポート","category":"アナウンス","tags":["アナウンス","Blogging"]}}}]}},"pageContext":{"category":"アナウンス"}},
-    "staticQueryHashes": []}

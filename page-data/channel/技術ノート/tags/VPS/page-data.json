@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
     "path": "/channel/技術ノート/tags/VPS",
-    "result": {"data":{"posts":{"edges":[]}},"pageContext":{"channel":"技術ノート","tag":"VPS"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"b6dda170-c2ac-56f0-8de3-60ca92355f9f","slug":"2022/proxy_webservice_on_home_server_with_vps/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"自宅サーバのWebサービスをVPSで中継するようにした","date":"2022-04-07T11:00:00.000Z","updated":null,"channel":"技術ノート","category":"Network","tags":["Network","自宅サーバ","VPS"]}}}]}},"pageContext":{"channel":"技術ノート","tag":"VPS"}},
     "staticQueryHashes": []}
