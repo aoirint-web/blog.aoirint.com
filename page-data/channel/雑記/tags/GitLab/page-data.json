@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-layouts-channel-tag-search-page-layout-tsx",
     "path": "/channel/雑記/tags/GitLab",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"b92a062f-675c-5beb-9ade-c83b39dcf276","slug":"2022/05/10/self_hosted_gitlab_runner_docker_safely/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Self-hosted GitLab Runnerで安全にdockerを扱えるようにする","date":"2022-05-10T12:47:51.000Z","updated":"2022-05-12T11:02:57.000Z","channel":"雑記","category":"技術","tags":["GitLab","Docker"]}}}]}},"pageContext":{"channel":"雑記","tag":"GitLab"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"b92a062f-675c-5beb-9ade-c83b39dcf276","slug":"2022/05/10/self_hosted_gitlab_runner_docker_safely/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Self-hosted GitLab Runnerで安全にdockerを扱えるようにするためにどうしたらいいかわからない","date":"2022-05-10T12:47:51.000Z","updated":"2022-06-24T10:10:00.000Z","channel":"雑記","category":"技術","tags":["GitLab","Docker"]}}}]}},"pageContext":{"channel":"雑記","tag":"GitLab"}},
     "staticQueryHashes": []}
