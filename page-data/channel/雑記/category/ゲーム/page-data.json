@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-layouts-channel-category-search-page-layout-tsx",
+    "path": "/channel/雑記/category/ゲーム",
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"28facab3-ab07-5c3f-8e13-f19180441815","slug":"2022/msfs2020_move_package_to_another_disk/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"MSFS2020の追加ダウンロードファイルを別ディスクに移動する","date":"2022-06-29T14:30:00.000Z","updated":null,"channel":"雑記","category":"ゲーム","tags":["ゲーム","MSFS2020"]}}}]}},"pageContext":{"channel":"雑記","category":"ゲーム"}},
+    "staticQueryHashes": []}
