@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-layouts-category-search-page-layout-tsx",
     "path": "/category/nginx",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"d19db878-5fff-5060-af18-fc1665e1dd64","slug":"2020/nginx_basicauth_reverseproxy_staticfiles/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"nginx basic auth, reverse proxy, static files","date":"2020-03-27T10:30:13.000Z","updated":null,"channel":"技術ノート","category":"nginx","tags":["nginx","Web"]}}}]}},"pageContext":{"category":"nginx"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"d19db878-5fff-5060-af18-fc1665e1dd64","slug":"2020/nginx_basicauth_reverseproxy_staticfiles/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"nginx basic auth, reverse proxy, static files","date":"2020-03-27T10:30:13.000Z","updated":null,"channel":"技術ノート","category":"nginx","tags":["nginx","Web"]}}},{"node":{"id":"57697130-b755-5559-bdd5-0d1fbd9ee1fb","slug":"2022/nginx_replace_referrer_policy_header/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"nginx, リバースプロキシからのReferrer-Policyヘッダを置換する","date":"2022-07-01T00:00:00.000Z","updated":null,"channel":"技術ノート","category":"nginx","tags":["nginx"]}}}]}},"pageContext":{"category":"nginx"}},
     "staticQueryHashes": []}
