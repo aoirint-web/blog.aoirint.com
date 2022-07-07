@@ -1,4 +1,137 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[えやみぐさ RSS Feed]]></title><description><![CDATA[えやみぐさ RSS Feed]]></description><link>https://blog.aoirint.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 Jul 2022 01:10:44 GMT</lastBuildDate><item><title><![CDATA[nginx, リバースプロキシからのReferrer-Policyヘッダを置換する]]></title><description><![CDATA[nginx, リバースプロキシからのReferrer-Policyヘッダを置換する https://takuya-1st.hatenablog.jp/entry/2018/11/01/040000 https://developer.mozilla.org/ja/docs/Web…]]></description><link>https://blog.aoirint.com/entry/2022/nginx_replace_referrer_policy_header/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2022/nginx_replace_referrer_policy_header/</guid><pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;nginx-リバースプロキシからのreferrer-policyヘッダを置換する&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#nginx-%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7%E3%81%8B%E3%82%89%E3%81%AEreferrer-policy%E3%83%98%E3%83%83%E3%83%80%E3%82%92%E7%BD%AE%E6%8F%9B%E3%81%99%E3%82%8B&quot; aria-label=&quot;nginx リバースプロキシからのreferrer policyヘッダを置換する permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;nginx, リバースプロキシからのReferrer-Policyヘッダを置換する&lt;/h1&gt;&lt;pre&gt;&lt;code class=&quot;language-nginx&quot;&gt;add_header Referrer-Policy no-referrer;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[えやみぐさ RSS Feed]]></title><description><![CDATA[えやみぐさ RSS Feed]]></description><link>https://blog.aoirint.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 07 Jul 2022 02:28:39 GMT</lastBuildDate><item><title><![CDATA[Python, asyncioを使った実装例]]></title><description><![CDATA[Python, asyncioを使った実装例 Python 3.9.13 (pyenv) Ubuntu 20.04 (WSL2) 基本実装 同期関数から非同期関数を同期的に呼び出す asyncio.run 同期関数から非同期関数を非同期的に呼び出す threading…]]></description><link>https://blog.aoirint.com/entry/2022/python_asyncio_examples/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2022/python_asyncio_examples/</guid><pubDate>Thu, 07 Jul 2022 02:20:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;python-asyncioを使った実装例&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#python-asyncio%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E5%AE%9F%E8%A3%85%E4%BE%8B&quot; aria-label=&quot;python asyncioを使った実装例 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Python, asyncioを使った実装例&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Python 3.9.13 (pyenv)&lt;/li&gt;&lt;li&gt;Ubuntu 20.04 (WSL2)&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;基本実装&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E5%9F%BA%E6%9C%AC%E5%AE%9F%E8%A3%85&quot; aria-label=&quot;基本実装 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;基本実装&lt;/h2&gt;&lt;h3 id=&quot;同期関数から非同期関数を同期的に呼び出す&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%81%8B%E3%82%89%E9%9D%9E%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%82%92%E5%90%8C%E6%9C%9F%E7%9A%84%E3%81%AB%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%99&quot; aria-label=&quot;同期関数から非同期関数を同期的に呼び出す permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;同期関数から非同期関数を同期的に呼び出す&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;asyncio.run&lt;/li&gt;&lt;/ul&gt;&lt;details&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;import asyncio
+import time
+
+def main():
+  async def func():
+    await asyncio.sleep(3)
+    print(&amp;#x27;func exited&amp;#x27;) # 1
+
+  asyncio.run(func())
+
+  time.sleep(1)
+  print(&amp;#x27;main exited&amp;#x27;) # 2
+
+main()
+
+print(&amp;#x27;exited&amp;#x27;) # 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/details&gt;&lt;h3 id=&quot;同期関数から非同期関数を非同期的に呼び出す&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%81%8B%E3%82%89%E9%9D%9E%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%82%92%E9%9D%9E%E5%90%8C%E6%9C%9F%E7%9A%84%E3%81%AB%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%99&quot; aria-label=&quot;同期関数から非同期関数を非同期的に呼び出す permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;同期関数から非同期関数を非同期的に呼び出す&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;threading.Thread + asyncio.run&lt;/li&gt;&lt;/ul&gt;&lt;details&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;import asyncio
+from concurrent.futures import ThreadPoolExecutor
+import threading
+import time
+
+def main():
+  async def func():
+    await asyncio.sleep(3)
+    print(&amp;#x27;func exited&amp;#x27;) # 3
+
+  thread = threading.Thread(target=lambda: asyncio.run(func()))
+  thread.start()
+
+  time.sleep(1)
+  print(&amp;#x27;main exited&amp;#x27;) # 1
+
+main()
+
+print(&amp;#x27;exited&amp;#x27;) # 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/details&gt;&lt;h3 id=&quot;非同期関数から同期関数を同期的に呼び出す&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E9%9D%9E%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%81%8B%E3%82%89%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%82%92%E5%90%8C%E6%9C%9F%E7%9A%84%E3%81%AB%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%99&quot; aria-label=&quot;非同期関数から同期関数を同期的に呼び出す permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;非同期関数から同期関数を同期的に呼び出す&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;ふつうに呼び出す&lt;/li&gt;&lt;/ul&gt;&lt;details&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;import asyncio
+import time
+
+async def main():
+  def func():
+    time.sleep(3)
+    print(&amp;#x27;func exited&amp;#x27;) # 1
+
+  func()
+
+  await asyncio.sleep(1)
+  print(&amp;#x27;main exited&amp;#x27;) # 2
+
+asyncio.run(main())
+
+print(&amp;#x27;exited&amp;#x27;) # 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/details&gt;&lt;h3 id=&quot;非同期関数から同期関数を非同期的に呼び出す&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E9%9D%9E%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%81%8B%E3%82%89%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%82%92%E9%9D%9E%E5%90%8C%E6%9C%9F%E7%9A%84%E3%81%AB%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%99&quot; aria-label=&quot;非同期関数から同期関数を非同期的に呼び出す permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;非同期関数から同期関数を非同期的に呼び出す&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;asyncio.new_event_loop + ThreadPoolExecutor + EventLoop.run_in_executor&lt;/li&gt;&lt;/ul&gt;&lt;details&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;import asyncio
+from concurrent.futures import ThreadPoolExecutor
+import time
+
+async def main():
+  def func():
+    time.sleep(3)
+    print(&amp;#x27;func exited&amp;#x27;) # 3
+
+  loop = asyncio.new_event_loop()
+  executor = ThreadPoolExecutor()
+  loop.run_in_executor(executor, func)
+
+  await asyncio.sleep(1)
+  print(&amp;#x27;main exited&amp;#x27;) # 1
+
+asyncio.run(main())
+
+print(&amp;#x27;exited&amp;#x27;) # 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/details&gt;&lt;h3 id=&quot;非同期関数から非同期関数を同期的に呼び出す&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E9%9D%9E%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%81%8B%E3%82%89%E9%9D%9E%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%82%92%E5%90%8C%E6%9C%9F%E7%9A%84%E3%81%AB%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%99&quot; aria-label=&quot;非同期関数から非同期関数を同期的に呼び出す permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;非同期関数から非同期関数を同期的に呼び出す&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;awaitキーワード&lt;/li&gt;&lt;/ul&gt;&lt;details&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;import asyncio
+
+async def main():
+  async def func():
+    await asyncio.sleep(3)
+    print(&amp;#x27;func exited&amp;#x27;) # 1
+
+  await func()
+
+  await asyncio.sleep(1)
+  print(&amp;#x27;main exited&amp;#x27;) # 2
+
+asyncio.run(main())
+
+print(&amp;#x27;exited&amp;#x27;) # 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/details&gt;&lt;h3 id=&quot;非同期関数から非同期関数を非同期的に呼び出す&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E9%9D%9E%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%81%8B%E3%82%89%E9%9D%9E%E5%90%8C%E6%9C%9F%E9%96%A2%E6%95%B0%E3%82%92%E9%9D%9E%E5%90%8C%E6%9C%9F%E7%9A%84%E3%81%AB%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%99&quot; aria-label=&quot;非同期関数から非同期関数を非同期的に呼び出す permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;非同期関数から非同期関数を非同期的に呼び出す&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;threading.Thread + asyncio.run&lt;/li&gt;&lt;/ul&gt;&lt;details&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;import asyncio
+import threading
+
+async def main():
+  async def func():
+    await asyncio.sleep(3)
+    print(&amp;#x27;func exited&amp;#x27;) # 3
+
+  thread = threading.Thread(target=lambda: asyncio.run(func()))
+  thread.start()
+
+  await asyncio.sleep(1)
+  print(&amp;#x27;main exited&amp;#x27;) # 1
+
+asyncio.run(main())
+
+print(&amp;#x27;exited&amp;#x27;) # 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/details&gt;&lt;h2 id=&quot;よく見るエラー&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E3%82%88%E3%81%8F%E8%A6%8B%E3%82%8B%E3%82%A8%E3%83%A9%E3%83%BC&quot; aria-label=&quot;よく見るエラー permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;よく見るエラー&lt;/h2&gt;&lt;h3 id=&quot;runtimeerror-event-loop-is-closed&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#runtimeerror-event-loop-is-closed&quot; aria-label=&quot;runtimeerror event loop is closed permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RuntimeError: Event loop is closed&lt;/h3&gt;&lt;p&gt;TBW&lt;/p&gt;&lt;h3 id=&quot;runtimeerror-this-event-loop-is-already-running&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#runtimeerror-this-event-loop-is-already-running&quot; aria-label=&quot;runtimeerror this event loop is already running permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RuntimeError: This event loop is already running&lt;/h3&gt;&lt;p&gt;TBW&lt;/p&gt;&lt;h2 id=&quot;アプリケーション&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&quot; aria-label=&quot;アプリケーション permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;アプリケーション&lt;/h2&gt;&lt;h3 id=&quot;fastapi--schedule&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#fastapi--schedule&quot; aria-label=&quot;fastapi  schedule permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;FastAPI + schedule&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;import time
+import threading
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
+from fastapi import FastAPI
+
+app = FastAPI()
+schedule_event = threading.Event()
+
+@app.on_event(&amp;#x27;startup&amp;#x27;)
+async def startup_schedule():
+  loop = asyncio.get_event_loop()
+  executor = ThreadPoolExecutor()
+
+  def loop_schedule(event):
+    while True:
+      if event.is_set():
+        break
+      schedule.run_pending()
+      time.sleep(1)
+
+    print(&amp;#x27;run all existing scheduled jobs&amp;#x27;)
+    schedule.run_all()
+
+    print(&amp;#x27;exit schedule&amp;#x27;)
+
+  loop.run_in_executor(executor, loop_schedule, schedule_event)
+
+@app.on_event(&amp;#x27;shutdown&amp;#x27;)
+async def shutdown_schedule():
+  schedule_event.set()
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[nginx, リバースプロキシからのReferrer-Policyヘッダを置換する]]></title><description><![CDATA[nginx, リバースプロキシからのReferrer-Policyヘッダを置換する https://takuya-1st.hatenablog.jp/entry/2018/11/01/040000 https://developer.mozilla.org/ja/docs/Web…]]></description><link>https://blog.aoirint.com/entry/2022/nginx_replace_referrer_policy_header/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2022/nginx_replace_referrer_policy_header/</guid><pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;nginx-リバースプロキシからのreferrer-policyヘッダを置換する&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#nginx-%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7%E3%81%8B%E3%82%89%E3%81%AEreferrer-policy%E3%83%98%E3%83%83%E3%83%80%E3%82%92%E7%BD%AE%E6%8F%9B%E3%81%99%E3%82%8B&quot; aria-label=&quot;nginx リバースプロキシからのreferrer policyヘッダを置換する permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;nginx, リバースプロキシからのReferrer-Policyヘッダを置換する&lt;/h1&gt;&lt;pre&gt;&lt;code class=&quot;language-nginx&quot;&gt;add_header Referrer-Policy no-referrer;
 # add_header Referrer-Policy same-origin;
 
 proxy_hide_header Referrer-Policy; # remove Referrer-Policy from original response
@@ -156,100 +289,4 @@ Pythonパッケージのインストールと同時にC言語コードからネ�
 PyPIやパッケージの公式ドキュメントに利用者向けの記載があるはずなので、
 そちらを確認してインストールしてからpip-compileを実行すると解消するだろう。&lt;/p&gt;&lt;p&gt;例えば、PostgreSQLドライバのpsycopg2は、以下のようなパッケージの事前インストールが必要である。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cコンパイラ&lt;/li&gt;&lt;li&gt;Pythonのヘッダ&lt;/li&gt;&lt;li&gt;Postgresライブラリlibpqのヘッダ&lt;/li&gt;&lt;/ul&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo apt install python3-dev libpq-dev build-essential
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://pypi.org/project/psycopg2/&quot;&gt;https://pypi.org/project/psycopg2/&lt;/a&gt; （現在 psycopg2==2.9.3）&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.psycopg.org/docs/install.html#build-prerequisites&quot;&gt;https://www.psycopg.org/docs/install.html#build-prerequisites&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;MySQLドライバのmysqlclientは、以下のようなパッケージの事前インストールが必要である。&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo apt install python3-dev default-libmysqlclient-dev build-essential
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://pypi.org/project/mysqlclient/&quot;&gt;https://pypi.org/project/mysqlclient/&lt;/a&gt; （現在 mysqlclient==2.1.1）&lt;/li&gt;&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[自宅サーバのWebサービスをVPSで中継するようにした]]></title><description><![CDATA[自宅サーバのWebサービスをVPSで中継するようにした これまで自宅サーバへの外部からの接続には、
-数年前から自宅のグローバルIPアドレスにフリーのドメインを紐づけて使っていたのですが、…]]></description><link>https://blog.aoirint.com/entry/2022/proxy_webservice_on_home_server_with_vps/</link><guid isPermaLink="false">https://blog.aoirint.com/entry/2022/proxy_webservice_on_home_server_with_vps/</guid><pubDate>Thu, 07 Apr 2022 11:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;自宅サーバのwebサービスをvpsで中継するようにした&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%81%AEweb%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92vps%E3%81%A7%E4%B8%AD%E7%B6%99%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F&quot; aria-label=&quot;自宅サーバのwebサービスをvpsで中継するようにした permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;自宅サーバのWebサービスをVPSで中継するようにした&lt;/h1&gt;&lt;p&gt;これまで自宅サーバへの外部からの接続には、
-数年前から自宅のグローバルIPアドレスにフリーのドメインを紐づけて使っていたのですが、
-3月末に更新を忘れてこのドメインを失効させてしまいました。&lt;/p&gt;&lt;p&gt;自宅サーバでは、主に個人用のWebサービスや身内用のゲームサーバが動いています。&lt;/p&gt;&lt;p&gt;同じドメインを再取得するには追加の料金がかかりますし、（若干用途が規約的に怪しいこともあり）新しくドメインを取り直す気にもなれなかったので、
-以前から契約していたVPSをTCP/UDPプロキシとして使ってみることにしました。&lt;/p&gt;&lt;p&gt;この記事では、nginx.confのhttpディレクティブとstreamディレクティブそれぞれについて、拡張子でincludeを切り分けるようにする構成にしています。
-基本的には、nginx.confに以下のように記述するイメージです。&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;language-nginx&quot;&gt;http {
-        include /etc/nginx/conf.d/*.http;
-}
-
-stream {
-        include /etc/nginx/conf.d/*.stream;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;関連ツイート&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://twitter.com/aoirint/status/1510309731642257408&quot;&gt;https://twitter.com/aoirint/status/1510309731642257408&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://twitter.com/aoirint/status/1511896279731040261&quot;&gt;https://twitter.com/aoirint/status/1511896279731040261&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;また、この記事の内容には関係ありませんが、envsubstでconfigファイルに環境変数を注入する、nginxのDocker Hub公式Dockerイメージのtemplate機能を使用しているため、
-nginx設定ファイルの拡張子がtemplateになっています。&lt;/p&gt;&lt;p&gt;上のツイートに関連して、&lt;code&gt;certbot --nginx&lt;/code&gt;で自動生成される&lt;code&gt;/etc/letsencrypt/options-ssl-nginx.conf&lt;/code&gt;を手動で&lt;code&gt;nginx.conf&lt;/code&gt;に統合しているので、
-以下の設定ではコメントアウトされているincludeがあります。&lt;/p&gt;&lt;h2 id=&quot;構成&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E6%A7%8B%E6%88%90&quot; aria-label=&quot;構成 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;構成&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;自宅サーバ側：systemd + autosshによる自動SSH接続＆リモートポート転送&lt;/li&gt;&lt;li&gt;VPS側：nginxによるHTTPリバースプロキシ・UDPプロキシ&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;自宅サーバ側&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E5%81%B4&quot; aria-label=&quot;自宅サーバ側 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;自宅サーバ側&lt;/h2&gt;&lt;h3 id=&quot;sshconfig&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#sshconfig&quot; aria-label=&quot;sshconfig permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;~/.ssh/config&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;language-ssh&quot;&gt;Host vps*
-    HostName VPS_IPADDR
-    Port VPS_SSH_PORT
-    ServerAliveInterval 10
-    ServerAliveCountMax 5
-    TCPKeepAlive yes
-    IdentitiesOnly yes
-    IdentityFile ~/.ssh/vps
-
-Host vps-forwarding-homeserver
-    # SERVICE1
-    RemoteForward 127.0.0.1:VPS_SERVICE1_PORT 127.0.0.1:LOCAL_SERVICE1_PORT
-
-    # SERVICE2
-    RemoteForward 127.0.0.1:VPS_SERVICE2_PORT 127.0.0.1:LOCAL_SERVICE2_PORT
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;etcsystemdsystemautossh-vpsservice&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#etcsystemdsystemautossh-vpsservice&quot; aria-label=&quot;etcsystemdsystemautossh vpsservice permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;/etc/systemd/system/autossh-vps.service&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;language-systemd&quot;&gt;[Unit]
-Description=AutoSSH VPS
-
-[Service]
-Type=simple
-Restart=always
-User=user
-Group=user
-WorkingDirectory=/home/user
-ExecStart=/usr/bin/autossh -N vps-forwarding-homeserver
-
-[Install]
-WantedBy=multi-user.target
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;vps側&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#vps%E5%81%B4&quot; aria-label=&quot;vps側 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;VPS側&lt;/h2&gt;&lt;h3 id=&quot;httpリバースプロキシsshポート転送使用-myservicehttptemplate&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#http%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7ssh%E3%83%9D%E3%83%BC%E3%83%88%E8%BB%A2%E9%80%81%E4%BD%BF%E7%94%A8-myservicehttptemplate&quot; aria-label=&quot;httpリバースプロキシsshポート転送使用 myservicehttptemplate permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTPリバースプロキシ（SSHポート転送使用）: myservice.http.template&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;language-nginx&quot;&gt;server {
-    server_name myservice.example.com;
-
-    client_max_body_size 500M;
-
-    add_header Strict-Transport-Security &amp;#x27;max-age=15552000; includeSubDomains; preload&amp;#x27;;
-
-    location / {
-        #auth_basic &amp;quot;Auth required&amp;quot;;
-        #auth_basic_user_file /secrets/myservice.htpasswd;
-
-        proxy_pass http://127.0.0.1:VPS_MYSERVICE_PORT;
-        proxy_redirect off;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-Host $host;
-        proxy_set_header X-Forwarded-Server $host;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-
-        send_timeout 3600s;
-        proxy_connect_timeout 3600s;
-        proxy_send_timeout 3600s;
-        proxy_read_timeout 3600s;
-        #proxy_max_temp_file_size 2048m;
-    }
-
-    location /.well-known/acme-challenge/ {
-        root /letsencrypt-webroot;
-    }
-
-    listen 443 ssl;
-    ssl_certificate /etc/letsencrypt/live/myservice.example.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/myservice.example.com/privkey.pem;
-    # include /etc/letsencrypt/options-ssl-nginx.conf;
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
-}
-
-server {
-    if ($host = myservice.example.com) {
-        return 301 https://$host$request_uri;
-    }
-
-    server_name myservice.example.com;
-    listen 80;
-    return 404;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;udpポート転送sshポート転送不使用-myserviceudpstreamtemplate&quot; style=&quot;position:relative&quot;&gt;&lt;a href=&quot;#udp%E3%83%9D%E3%83%BC%E3%83%88%E8%BB%A2%E9%80%81ssh%E3%83%9D%E3%83%BC%E3%83%88%E8%BB%A2%E9%80%81%E4%B8%8D%E4%BD%BF%E7%94%A8-myserviceudpstreamtemplate&quot; aria-label=&quot;udpポート転送sshポート転送不使用 myserviceudpstreamtemplate permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UDPポート転送（SSHポート転送不使用）: myserviceudp.stream.template&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;language-nginx&quot;&gt;server {
-        listen VPS_SERVICEUDP_PORT udp reuseport;
-
-        proxy_pass HOME_IPADDR:HOME_SERVICEUDP_PORT;
-        proxy_connect_timeout 3600s;
-        proxy_timeout 3600s;
-        #proxy_max_temp_file_size 2048m;
-}
-&lt;/code&gt;&lt;/pre&gt;</content:encoded></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://pypi.org/project/mysqlclient/&quot;&gt;https://pypi.org/project/mysqlclient/&lt;/a&gt; （現在 mysqlclient==2.1.1）&lt;/li&gt;&lt;/ul&gt;</content:encoded></item></channel></rss>
