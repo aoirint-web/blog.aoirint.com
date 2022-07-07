@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-layouts-tag-search-page-layout-tsx",
     "path": "/tags/非同期処理",
-    "result": {"data":{"posts":{"edges":[{"node":{"id":"fdaab7fd-cd8f-5ae8-90e4-1ca5a5627bac","slug":"2022/python_asyncio_examples/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Python, asyncioを使った実装例","date":"2022-07-07T02:20:00.000Z","updated":null,"channel":"技術ノート","category":"Python","tags":["Python","非同期処理"]}}}]}},"pageContext":{"tag":"非同期処理"}},
+    "result": {"data":{"posts":{"edges":[{"node":{"id":"fdaab7fd-cd8f-5ae8-90e4-1ca5a5627bac","slug":"2022/python_asyncio_examples/","parent":{"sourceInstanceName":"entry"},"frontmatter":{"title":"Python, asyncioを使った同期・非同期処理の実装例","date":"2022-07-07T02:20:00.000Z","updated":null,"channel":"技術ノート","category":"Python","tags":["Python","非同期処理"]}}}]}},"pageContext":{"tag":"非同期処理"}},
     "staticQueryHashes": []}
